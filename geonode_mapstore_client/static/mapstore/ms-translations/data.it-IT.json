@@ -9,8 +9,8 @@
         "about_p0-0": "MapStore un framework per realizzare applicazioni di web mapping usando librerie di mapping standard, come",
         "about_p0-1": "e",
         "about_p1": "MapStore contiene alcune applicazioni di esempio:",
-        "about_ul0_li0": "MapViewer è un semplice visualizzatore di mappe preconfigurate (opzionalmente memorizzare in un database usando GeoStore)",
-        "about_ul0_li1": "MapPublisher è stato sviluppato per creare, salvare a condividere in modo semplice ed intuitivo mappe e mashups creati selezionando contenuti da server come OpenStreetMap, Google Maps, MapQuest o da specifici servizi forniti dalla tua organizzazione o da terze parti. Per maggiori informazioni controlla la",
+        "about_ul0_li0": "MapViewer è un semplice visualizzatore di mappe tematiche preconfigurate (opzionalmente memorizzare in un database usando GeoStore)",
+        "about_ul0_li1": "MapPublisher è stato sviluppato per creare, salvare a condividere in modo semplice ed intuitivo mappe tematiche e mashups creati selezionando contenuti da server come OpenStreetMap, Google Maps, MapQuest o da specifici servizi forniti dalla tua organizzazione o da terze parti. Per maggiori informazioni controlla la",
         "about_h20": "Licenza",
         "about_p3": "MapStore è un software Free ed Open Source, basato su OpenLayers, Leaflet e ReactJS, ed è rilasciato sotto licenza Simplified BSD License.",
         "about_p5-0": "Per informazioni controlla",
@@ -51,7 +51,7 @@
             "404": "File di traduzione non trovato"
         },
         "details": {
-            "title": "Info su questa mappa"
+            "title": "Info su questa mappa tematica"
         },
         "showEmptyMessageGFI": "Mostra il messaggio: Nessuna feature per gli altri layer",
         "remove": "Rimuovi",
@@ -72,10 +72,10 @@
             "styleListLoadError": "Si è verificato un errore durante il caricamento della lista degli stili",
             "stylesRefreshList": "Aggiorna lista degli stili",
             "delete": "Elimina",
-            "deleteLayer":"Elimina Livello",
+            "deleteLayer":"Elimina Dato geografico",
             "deleteLayerMessage": "Sei sicuro di voler eliminare questo dato geografico?",
             "deleteLayerGroup":"Elimina gruppo",
-            "deleteLayerGroupMessage": "Vuoi veramente cancellare questo gruppo e tutti i suoi livelli?",
+            "deleteLayerGroupMessage": "Vuoi veramente cancellare questo gruppo e tutti i suoi dati geografici?",
             "confirmDelete": "Sei sicuro?",
             "featureTypeError": "Impossibile caricare gli attributi del layer",
             "featureTypeErrorInvalidJSON": "Impossibile caricare gli attributi del layer. La risposta non è valida",
@@ -83,7 +83,7 @@
             "titleTranslations": "Traduzioni di titoli",
             "groupProperties": "Proprietà del gruppo",
             "featureInfo": "Feature Info",
-            "featureInfoFormatLbl": "Formato risposta interrogazioni su mappa",
+            "featureInfoFormatLbl": "Formato risposta interrogazioni su mappa tematica",
             "legenderror": "Legenda non disponibile",
             "editCustomFormat": "Edita formato",
             "exampleOfResponse": "Esempio",
@@ -105,10 +105,10 @@
             "templatePreview": "Anteprima template",
             "visibilityLimits": {
                 "title": "Limiti di visibilità",
-                "serverValuesUpdateUndefined": "Il server non ha fornito limiti di visibilità di scala per questo livello",
-                "serverValuesUpdate": "Il server ha fornito limiti di visibilità di scala minimi e massimi per questo livello",
-                "serverValuesUpdateMinScale": "Il server ha fornito solo il limite minimo di visibilità di scala per questo livello",
-                "serverValuesUpdateMaxScale": "Il server ha fornito solo il limite massimo di visibilità di scala per questo livello",
+                "serverValuesUpdateUndefined": "Il server non ha fornito limiti di visibilità di scala per questo dato geografico",
+                "serverValuesUpdate": "Il server ha fornito limiti di visibilità di scala minimi e massimi per questo dato geografico",
+                "serverValuesUpdateMinScale": "Il server ha fornito solo il limite minimo di visibilità di scala per questo dato geografico",
+                "serverValuesUpdateMaxScale": "Il server ha fornito solo il limite massimo di visibilità di scala per questo dato geografico",
                 "rangeError": "Il valore minimo è maggiore del valore massimo. Fornisci un intervallo in cui il valore massimo è maggiore del valore minimo",
                 "serverValuesError": "Non è possibile richiedere limiti di visibilità di scala minimi e massimi al server. Probabilmente a causa di un errore nella connessione di rete o di un endpoint di capacità mancante",
                 "updateWMSCapabilities": "Richiedi limiti di visibilità di scala minimi e massimi al server",
@@ -133,8 +133,8 @@
                 "left": "Sinistra",
                 "bottom": "Sotto",
                 "top": "Sopra",
-                "editLayerName": "Modifica il nome del livello",
-                "confirmLayerName": "Conferma la modifica del nome del livello"
+                "editLayerName": "Modifica il nome del dato geografico",
+                "confirmLayerName": "Conferma la modifica del nome del dato geografico"
             },
             "legendOptions": {
               "title": "Legenda",
@@ -163,13 +163,13 @@
             "update": "Aggiorna",
             "warning": "Attenzione",
             "success": "Aggiornamento completo",
-            "backgroundLayerNotSupported": "Lo sfondo precedentemente caricato non è supportato per questo tipo di mappa. E' stato pertanto selezionato il primo disponibile.",
-            "noBackgroundLayerSupported": "Non ci sono sfondi supportati per questo tipo di mappa.",
-            "updateOldMap": "Questa è una vecchia mappa perciò non tutte le funzionalità sono abilitate. Clicca su Aggiorna per aggiornare la mappa o semplicemnte chiudi la notifica se non desideri aggiornarla",
+            "backgroundLayerNotSupported": "Lo sfondo precedentemente caricato non è supportato per questo tipo di mappa tematica. E' stato pertanto selezionato il primo disponibile.",
+            "noBackgroundLayerSupported": "Non ci sono sfondi supportati per questo tipo di mappa tematica.",
+            "updateOldMap": "Questa è una vecchia mappa tematica perciò non tutte le funzionalità sono abilitate. Clicca su Aggiorna per aggiornare la mappa tematica o semplicemnte chiudi la notifica se non desideri aggiornarla",
             "warningSaveUpdatedMap": "Alcuni layer non sono stati aggiornati correttamente",
             "saveUpdatedMap": "Tutti i layer sono stati aggiornati con successo",
             "incompatibleBackgroundAndProjection":"The Projection you selected is not compatible with background, switch to a compatible -or an empty- background, then select this projection!",
-            "incompatibleDataAndProjection":"Uno o più livelli non sono completamente compatibili con la proiezione selezionata. I dati potrebbero essere (tutti o in parte) non visibili in mappa"
+            "incompatibleDataAndProjection":"Uno o più dati geografici non sono completamente compatibili con la proiezione selezionata. I dati potrebbero essere (tutti o in parte) non visibili in mappa tematica"
         },
         "dock": {
             "row": "{rowsSelected} riga selezionata",
@@ -279,7 +279,7 @@
             "open": "Apri",
             "shortDescription": "Modern webmapping con OpenLayers, Leaflet e React<br/><small>visita la pagina di <a href=\"https://mapstore.readthedocs.io/en/latest/\">documentazione</a></small>",
             "forkMeOnGitHub": "Fork me on GitHub",
-            "description": "MapStore è sviluppato per creare, salvare e condividere in modo semplice ed intuitivo mappe e mashup creati selezionando contenuti da server come Google Maps, OpenStreetMap, MapQuest o da server specifici forniti dalla propria organizzazione o da terzi. <br/> Visita la <a href=\"https://mapstore.readthedocs.io/en/latest/\">home page</a> per maggiori dettagli.",
+            "description": "MapStore è sviluppato per creare, salvare e condividere in modo semplice ed intuitivo mappe tematiche e mashup creati selezionando contenuti da server come Google Maps, OpenStreetMap, MapQuest o da server specifici forniti dalla propria organizzazione o da terzi. <br/> Visita la <a href=\"https://mapstore.readthedocs.io/en/latest/\">home page</a> per maggiori dettagli.",
             "Applications": "Applicazioni",
             "Examples": "Esempi",
             "LinkedinGroup": "Gruppo Linkedin Mapstore",
@@ -295,13 +295,13 @@
             },
             "examples":{
                 "viewer":{
-                    "html":"<h3>Viewer</h3><p>Semplice Visualizzatore di mappa</p>"
+                    "html":"<h3>Viewer</h3><p>Semplice Visualizzatore di mappa tematica</p>"
                 },
                 "3dviewer":{
                     "html":"<h3>Viewer 3D</h3><p>Visualizzatore 3D basato su CesiumJS</p>"
                 },
                 "manager":{
-                    "html":"<h3>Manager</h3><p>Sfoglia le mappe</p>"
+                    "html":"<h3>Manager</h3><p>Sfoglia le mappe tematiche</p>"
                 },
                 "mouseposition":{
                     "html":"<h3>Posizione del mouse</h3><p>Esempi personalizzati</p>"
@@ -325,7 +325,7 @@
                     "html":"<h3>Plugins</h3><p>Costruisci la tua applicazione</p>"
                 },
                 "api":{
-                    "html":"<h3>API</h3><p>Usa le API per includere una mappa MapStore nella tua applicazione</p>"
+                    "html":"<h3>API</h3><p>Usa le API per includere una mappa tematica MapStore nella tua applicazione</p>"
                 },
                 "rasterstyler":{
                     "html":"<h3>Raster Styler</h3><p>Crea stile per dati raster</p>"
@@ -338,31 +338,31 @@
             "confirm": "Acconsento"
         },
         "manager": {
-            "openInANewTab":"Apri mappa",
-            "deleteMap":"Elimina Mappa",
-            "deleteMapMessage": "Vuoi eliminare questa mappa?",
+            "openInANewTab":"Apri mappa tematica",
+            "deleteMap":"Elimina Mappa tematica",
+            "deleteMapMessage": "Vuoi eliminare questa mappa tematica?",
             "editMapMetadata":"Modifica Proprietà",
-            "mapTypes_combo": "Seleziona il visualizzatore di mappa:",
+            "mapTypes_combo": "Seleziona il visualizzatore di mappa tematica:",
             "theme_combo": "Seleziona Tema:",
-            "maps_title": "Mappe",
+            "maps_title": "Mappe tematiche",
             "locales_combo": "Lingua:",
             "featuredMaps": "In Evidenza"
         },
-        "newMap": "Nuova Mappa",
-        "newMapEmpty": "Mappa vuota",
+        "newMap": "Nuova Mappa tematica",
+        "newMapEmpty": "Mappa tematica vuota",
         "newMapContext": "Contesto esistente",
 		"maps": {
-            "title": "Mappe",
+            "title": "Mappe tematiche",
             "addToFeaturedMaps": "Metti in evidenza",
             "removeFromFeaturedMaps": "Rimuovi da 'evidenza'",
             "feedback": {
-                "noDetailsAvailable": "Dettagli della mappa non disponibili",
-                "successSavedMap": "La mappa è stata salvata correttamente",
-                "errorDeletingMap": "Errore durante l'eliminazione di questa mappa",
-                "errorDeletingThumbnailOfMap": "Errore durante l'eliminazione dell'anteprima di questa mappa",
-                "errorDeletingDetailsOfMap": "Errore durante l'eliminazione dei dettagli di questa mappa",
-                "allResDeleted": "Sono state eliminate tutte le risorse associate a questa mappa",
-                "errorFetchingDetailsOfMap": "Errore durante il recupero dei dettagli di questa mappa",
+                "noDetailsAvailable": "Dettagli della mappa tematica non disponibili",
+                "successSavedMap": "La mappa tematica è stata salvata correttamente",
+                "errorDeletingMap": "Errore durante l'eliminazione di questa mappa tematica",
+                "errorDeletingThumbnailOfMap": "Errore durante l'eliminazione dell'anteprima di questa mappa tematica",
+                "errorDeletingDetailsOfMap": "Errore durante l'eliminazione dei dettagli di questa mappa tematica",
+                "allResDeleted": "Sono state eliminate tutte le risorse associate a questa mappa tematica",
+                "errorFetchingDetailsOfMap": "Errore durante il recupero dei dettagli di questa mappa tematica",
                 "details": {
                     "deletedSuccesfully": "I dettagli sono stati eliminati correttamente",
                     "savedSuccesfully": "I dettagli sono stati salvati correttamente",
@@ -410,8 +410,8 @@
                 "errorLoadingDashboards": "C'è stato un errore caricando le dashboards"
             },
             "maps": {
-                "title": "Mappe ({count})",
-                "noMapAvailable": "Nessuna mappa disponibile",
+                "title": "Mappe tematiche ({count})",
+                "noMapAvailable": "Nessuna mappa tematica disponibile",
                 "createNewOne": "Creane una nuova",
                 "unsavedMapConfirmTitle": "Modifiche non salvate",
                 "unsavedMapConfirmMessage": "Sei sicuro di voler uscire senza salvare le modifiche?",
@@ -432,14 +432,14 @@
         "map": {
             "errorLoadingFont": "Il font {family} non è stato caricato correttamente. Alcuni elementi (i simboli nei marker) possono avere problemi di rendering",
             "loading": "In caricamento...",
-            "loadingSpinner": "Caricamento Mappa",
+            "loadingSpinner": "Caricamento Mappa tematica",
             "loadingerror": "Errore di caricamento",
             "name": "Nome",
             "description": "Descrizione",
-            "namePlaceholder": "Nome Mappa",
-            "descriptionPlaceholder": "Descrizione Mappa",
-            "saveTitle": "Salva mappa",
-            "saveText": "Salvare la mappa corrente?",
+            "namePlaceholder": "Nome Mappa tematica",
+            "descriptionPlaceholder": "Descrizione Mappa tematica",
+            "saveTitle": "Salva mappa tematica",
+            "saveText": "Salvare la mappa tematica corrente?",
             "thumbnail": "Thumbnail",
             "message": "Clicca o trascina un'immagine",
             "suggestion": "(best 300 px X 180 px, max 500 kb)",
@@ -447,8 +447,8 @@
             "errorSize": "Dimensione massima consentita: 500 kb",
             "errorCustomSize": "Dimensione massima consentita: {maxFileSize}",
             "error": "L'immagine fornita non è valida",
-            "savedMapTitle": "Mappa Salvata",
-            "savedMapMessage": "La mappa è stata salvata correttamente",
+            "savedMapTitle": "Mappa tematica Salvata",
+            "savedMapMessage": "La mappa tematica è stata salvata correttamente",
             "thumbnailError": {
                 "error403": "Non disponi dei permessi per aggiornare la thumbnail",
                 "error404": "Non è stato possibile creare la thumbnail sul server",
@@ -456,11 +456,11 @@
                 "errorDefault": "Errore di rete"
             },
             "mapError": {
-                "errorTitle": "Non è stato possibile salvare la mappa",
-                "error403": "Non disponi dei permessi per aggiornare la mappa",
-                "error404": "Non è stato possibile creare la mappa sul server",
+                "errorTitle": "Non è stato possibile salvare la mappa tematica",
+                "error403": "Non disponi dei permessi per aggiornare la mappa tematica",
+                "error404": "Non è stato possibile creare la mappa tematica sul server",
                 "error409": "Una risorsa con questo nome esiste già",
-                "error500": "Errore interno del server. Verificare se la dimensione della configurazione di mappa supera il limite fissato",
+                "error500": "Errore interno del server. Verificare se la dimensione della configurazione di mappa tematica supera il limite fissato",
                 "errorDefault": "Errore di rete"
             },
             "permissions": {
@@ -492,12 +492,12 @@
             },
             "errors": {
                 "loading": {
-                    "title": "Errore di caricamento della mappa",
-                    "notFound": "Mappa non trovata",
-                    "notAccessible": "Mappa non accessibile",
-                    "unknownError": "<p> <small> Uno dei seguenti motivi potrebbe essere la causa: </small> <ul><li> non hai il permesso di accedere </li> <li> stai cercando di accedere a una mappa che non esiste </li> <li> la mappa è stata rimossa </li> <li>la proiezione della mappa non è configurata</li></ul> <p>",
-                    "projectionError": "La proiezione {projection} della mappa non è stata configurata",
-                    "title" : "La mappa non può essere visualizzata"
+                    "title": "Errore di caricamento della mappa tematica",
+                    "notFound": "Mappa tematica non trovata",
+                    "notAccessible": "Mappa tematica non accessibile",
+                    "unknownError": "<p> <small> Uno dei seguenti motivi potrebbe essere la causa: </small> <ul><li> non hai il permesso di accedere </li> <li> stai cercando di accedere a una mappa tematica che non esiste </li> <li> la mappa tematica è stata rimossa </li> <li>la proiezione della mappa tematica non è configurata</li></ul> <p>",
+                    "projectionError": "La proiezione {projection} della mappa tematica non è stata configurata",
+                    "title" : "La mappa tematica non può essere visualizzata"
                 }
             }
         },
@@ -511,39 +511,39 @@
             "groupName": "Nome del gruppo"
         },
         "toc": {
-            "toggleLayerVisibility": "Attiva o disattiva la visibilità del livello",
+            "toggleLayerVisibility": "Attiva o disattiva la visibilità del dato geografico",
             "toggleGroupVisibility": "Attiva o disattiva la visibilità del gruppo",
             "displayLegendAndTools": "Visualizza legenda e strumenti aggiuntivi",
-            "zoomToLayerExtent": "Zoom all' estensione del livello",
+            "zoomToLayerExtent": "Zoom all' estensione del dato geografico",
             "addLayer": "Aggiungi dato geografico",
-            "addLayerToGroup": "Aggiungi livello al gruppo selezionato",
+            "addLayerToGroup": "Aggiungi dato geografico al gruppo selezionato",
             "addGroup": "Aggiungi Gruppo",
             "addSubGroup": "Aggiungi sotto gruppo al gruppo selezionato",
-            "toolZoomToLayerTooltip": "Zoom all' estensione del livello",
-            "toolZoomToLayersTooltip": "Zoom all' estensione del livelli",
-            "toolLayerSettingsTooltip": "Modifica proprietà del livello selezionato",
+            "toolZoomToLayerTooltip": "Zoom all' estensione del dato geografico",
+            "toolZoomToLayersTooltip": "Zoom all' estensione del dato geografico",
+            "toolLayerSettingsTooltip": "Modifica proprietà del dato geografico selezionato",
             "toolGroupSettingsTooltip": "Modifica proprietà del gruppo selezionato",
-            "toolTrashLayerTooltip": "Rimuovi livello selezionato",
-            "toolTrashLayersTooltip": "Rimuovi livelli selezionati",
+            "toolTrashLayerTooltip": "Rimuovi dato geografico selezionato",
+            "toolTrashLayersTooltip": "Rimuovi dati geografici selezionati",
             "toolTrashGroupTooltip": "Rimuovi gruppo selezionato",
             "toolFeaturesGridTooltip": "Apri tabella degli attributi",
             "layerFilterTooltip": "Filtra il layer",
-            "toolDownloadTooltip": "Esporta i dati del livello",
+            "toolDownloadTooltip": "Esporta i dati del dato geografico",
             "noFilteredResults": "Nessun risultato",
             "filterPlaceholder": "Filtra layers",
             "clearFilter": "Pulisci filtro",
-            "toolReloadLayerTooltip": "Forza caricamento del livello selezionato",
-            "toolReloadLayersTooltip": "Forza caricamento dei livelli selezionati",
+            "toolReloadLayerTooltip": "Forza caricamento del dato geografico selezionato",
+            "toolReloadLayersTooltip": "Forza caricamento dei dati geografici selezionati",
             "statusIconOpen": "Chiudi gruppo",
             "statusIconClose": "Apri gruppo",
-            "grabLayerIcon": "Trascina e ordina i livelli",
+            "grabLayerIcon": "Trascina e ordina i dati geografici",
             "grabGroupIcon": "Trascina e ordina i gruppi",
-            "toggleLayerVisibilityWarning": "Attiva o disattiva la visibilità del livello. Attenzione: il livello non è stato caricato correttamente",
-            "createWidget": "Crea un widget per il livello selezionato",
-            "editLayerProperties": "Modifica proprietà dal livello",
+            "toggleLayerVisibilityWarning": "Attiva o disattiva la visibilità del dato geografico. Attenzione: il dato geografico non è stato caricato correttamente",
+            "createWidget": "Crea un widget per il dato geografico selezionato",
+            "editLayerProperties": "Modifica proprietà dal dato geografico",
             "browseData": "Apri tabella degli attributi",
-            "removeLayer": "Rimuovi livello",
-            "loadingerror": "Il livello non è stato caricato correttamente o non disponible.",
+            "removeLayer": "Rimuovi dato geografico",
+            "loadingerror": "Il dato geografico non è stato caricato correttamente o non disponible.",
             "measure": "Misure",
             "layers": "Dati geografici",
             "drawerButton": "Dati geografici",
@@ -570,7 +570,7 @@
                 "title": "Aggiorna il titolo del layer",
                 "dimensions": "Aggiorna le dimensioni aggiuntive"
             },
-            "layerInfoTooltip": "Aggiorna titolo e descrizione del livello",
+            "layerInfoTooltip": "Aggiorna titolo e descrizione del dato geografico",
             "layerMetadata": {
                 "identifier": "Identificativo",
                 "title": "Titolo",
@@ -679,14 +679,14 @@
             "tooltip": "Scegli lo sfondo"
         },
         "info":{
-            "tooltip": "Interroga gli oggetti sulla mappa"
+            "tooltip": "Interroga gli oggetti sulla mappa tematica"
         },
         "expandtoolbar": {
             "tooltip": "Espandi / Collassa"
         },
         "getFeatureInfoTitle": "Informazioni sull'oggetto",
         "identifyTitle": "Informazioni sull'oggetto",
-        "identifyNoQueryableLayers": "Nessun livello interrogabile attivo",
+        "identifyNoQueryableLayers": "Nessun dato geografico interrogabile attivo",
         "identifyRevGeocodeHeader": "Coordinate",
         "identifyZoomToFeature": "Zoom alla feature",
         "identifyStopHighlightingFeatures": "Non evidenziare le feature interrogate",
@@ -700,7 +700,7 @@
         "identifyRevGeocodeCloseText": "Chiudi",
         "identifyRevGeocodeError": "Impossibile eseguire il geocoding",
         "identifyEdit": "Modifica",
-        "identifyLayerSelectNoResult": "Nessun livello trovato",
+        "identifyLayerSelectNoResult": "Nessun dato geografico trovato",
         "getFeatureInfoError": {
             "title": "Ooops! Qualcosa non va",
             "text": "Si è verificato un errore nel fare questa richiesta <b>GetFeatureInfo</b>"
@@ -708,12 +708,12 @@
         "noFeatureInfo": "Non ci sono informazioni disponibili per questo punto",
         "noInfoForLayers": "Non ci sono features per i seguenti layers: ",
         "history":{
-            "barLabel": "Storia Mappa",
+            "barLabel": "Storia Mappa tematica",
             "undoBtnTooltip": "Torna indietro",
             "redoBtnTooltip": "Vai avanti"
         },
-        "infoFormatLbl": "Formato risposte interrogazioni su mappa",
-        "infoTriggerLabel": "Evento trigger interrogazioni su mappa",
+        "infoFormatLbl": "Formato risposte interrogazioni su mappa tematica",
+        "infoTriggerLabel": "Evento trigger interrogazioni su mappa tematica",
         "click": "Click",
         "hover": "Hover",
         "measureSupport": {
@@ -727,7 +727,7 @@
             "MeasureArea": "Misura Area",
             "MeasureBearing": "Misura Direzione",
             "MeasureTrueBearing": "Misura vera Direzione",
-            "tooltip": "Misura distanze, aree ed angoli sulla mappa",
+            "tooltip": "Misura distanze, aree ed angoli sulla mappa tematica",
             "title": "Misurazione",
             "lengthButtonText": "Linea",
             "areaButtonText": "Area",
@@ -744,10 +744,10 @@
             "exportToGeoJSON": "Esporta in GeoJSON",
             "saveMeasure": "Salva le misure nell'annotazione",
             "resetTooltip": "Rimuovi Misurazioni",
-            "addAsLayer": "Aggiungi come livello"
+            "addAsLayer": "Aggiungi come dato geografico"
         },
         "search": {
-            "layerMustBeVisible": "Il livello di destinazione è inattivo",
+            "layerMustBeVisible": "Il dato geografico di destinazione è inattivo",
             "decimal": "Decimali",
             "aeronautical": "Aeronautiche",
             "changeSearchInputField": "Cambia lo strumento di ricerca",
@@ -775,7 +775,7 @@
             "latitude": "Lat",
             "longitude": "Lon",
             "b_title": "Titolo",
-            "b_layer_tooltip": "Interruttore ricarica visibilità livello",
+            "b_layer_tooltip": "Interruttore ricarica visibilità dato geografico",
             "b_bbox": "Rettangolo di selezione",
             "b_bbox_tooltip": "Usa la vista corrente come riquadro di selezione",
             "b_bbox_south": "Sud",
@@ -799,7 +799,7 @@
             "s_attributes": "Attributi",
             "s_sort": "Ordina per",
             "s_max_features": "Numero massimo di risultati (Max features)",
-            "s_max_zoom": "Livello di zoom massimo",
+            "s_max_zoom": "Dato geografico di zoom massimo",
             "s_wfs_props_label" : "Proprietà del servizio WFS",
             "s_wfs_opt_props_label" : "Proprietà facoltative",
             "s_result_props_label": "Proprietà di visualizzazione dei risultati",
@@ -809,19 +809,19 @@
             "generic_error": "Un errore e' occorso durante la ricerca: Dettagli errore: {message}",
             "showGFI": "Mostra GFI",
             "errors": {
-                "nonQueriableLayers": "Il layer indicato nell'url non è queriable o non è visibile in mappa",
+                "nonQueriableLayers": "Il layer indicato nell'url non è queriable o non è visibile in mappa tematica",
                 "serverError": "Il server ha ritornato un errore durante la richiesta GetFeatureInfo. Controlla se i parametri sono corretti"
             },
             "s_launch_info_panel": {
                 "label": "Avvia ricerca per feature",
                 "no_info": "Non cercare",
-                "all_layers": "Tutti i livelli",
-                "single_layer": "Singolo livello",
+                "all_layers": "Tutti i dati geografici",
+                "single_layer": "Singolo dato geografico",
                 "no_info_description": "Il pannello Informazioni Sulle Feature non comparirà",
-                "all_layers_description": "Il pannello Informazioni Sulle Feature mostrerà informazioni di tutti i layer presenti in mappa",
-                "single_layer_description": "Il pannello Informazioni Sulle Feature mostrerà le informazioni solo per questo livello",
+                "all_layers_description": "Il pannello Informazioni Sulle Feature mostrerà informazioni di tutti i layer presenti in mappa tematica",
+                "single_layer_description": "Il pannello Informazioni Sulle Feature mostrerà le informazioni solo per questo dato geografico",
                 "openFeatureInfoButtonCheckbox": "Utilizzare il pulsante per aprire le informazioni sulla funzione",
-                "forceSearchLayerVisibility": "Forza la visibilità del livello di ricerca"
+                "forceSearchLayerVisibility": "Forza la visibilità del dato geografico di ricerca"
             },
             "advancedSearchPanel": {
                 "title": "Filtri di ricerca avanzata",
@@ -887,7 +887,7 @@
                     },
                     "marker": {
                         "tooltip": {
-                            "start": "Click sulla mappa per piazzare un marker."
+                            "start": "Click sulla mappa tematica per piazzare un marker."
                         }
                     },
                     "polygon": {
@@ -930,10 +930,10 @@
                         }
                     },
                     "buttons": {
-                        "edit": "Modifica livelli.",
-                        "editDisabled": "Nessun livello da modificare.",
-                        "remove": "Cancella livelli.",
-                        "removeDisabled": "Nessun livello da eliminare."
+                        "edit": "Modifica dati geografici.",
+                        "editDisabled": "Nessun dato geografico da modificare.",
+                        "remove": "Cancella dato geografico.",
+                        "removeDisabled": "Nessun dato geografico da eliminare."
                     }
                 },
                 "handlers": {
@@ -957,7 +957,7 @@
             "metersUnit": "metri",
             "feetUnit": "piedi",
             "popup": "Sei nel raggio di {distance} {unit} da questo punto",
-            "outsideMapBoundsMsg": "Sembri al di fuori dei confini della mappa"
+            "outsideMapBoundsMsg": "Sembri al di fuori dei confini della mappa tematica"
         },
         "zoombuttons": {
             "zoomInTooltip": "Aumenta Zoom",
@@ -967,7 +967,7 @@
         "fullscreen": {
             "tooltipActivate":  "Passa a schermo intero",
             "tooltipDeactivate": "Esci da schermo intero",
-            "viewLargerMap": "Visualizza mappa più grande"
+            "viewLargerMap": "Visualizza mappa tematica più grande"
         },
         "helptexts": {
             "scaleBox": "Questo è il testo di aiuto per ScaleBox",
@@ -987,8 +987,8 @@
             "shapefile": "Seleziona lo shapefile compresso, setta lo style ed importa il nuovo layer locale",
             "rasterstyler": "Imposta min, max, numero delle classi e colorRamp e genera una nuova classificazione per il raster layer selezionato",
             "expandToolbar": "Questo è il testo di aiuto per Espandi / Collassa",
-            "historyundo": "Usa questo pulsante per tornare alla vista della mappa precedente",
-            "historyredo": "Use questo pulsante per andare alla vista della mappa successiva",
+            "historyundo": "Usa questo pulsante per tornare alla vista della mappa tematica precedente",
+            "historyredo": "Use questo pulsante per andare alla vista della mappa tematica successiva",
             "vectorstyler": "Crea lo style per il layer vettoriale selezionato",
             "styler": "Crea lo style per il layer selezionato"
         },
@@ -1047,7 +1047,7 @@
                 "combo_placeholder": "Seleziona...",
                 "spatial_filter_header": "Regione di interesse",
                 "remove": "Rimuovi",
-                "draw_start_label": "Disegna sulla mappa l'area di interesse",
+                "draw_start_label": "Disegna sulla mappa tematica l'area di interesse",
                 "dwithin_label": "metri",
                 "details": {
                     "detail_button_label": "Dettagli",
@@ -1078,13 +1078,13 @@
                 }
             },
             "crossLayerFilter": {
-                "title": "Filtra usando un livello",
-                "targetLayer": "Livello Filtro",
+                "title": "Filtra usando un dato geografico",
+                "targetLayer": "Dato geografico Filtro",
                 "clear": "Pulisci Filtro",
                 "operation": "Operazione",
-                "placeholder": "Seleziona il livello",
+                "placeholder": "Seleziona il dato geografico",
                 "errors": {
-                    "noCrossLayerAvailable": "L'operazione di filtraggio usando un livello non è supportata per il layer selezionato",
+                    "noCrossLayerAvailable": "L'operazione di filtraggio usando un dato geografico non è supportata per il layer selezionato",
                     "layersExcluded": "Solo i layer provenienti dalla stessa sorgente possono essere selezionati come layer di destinazione per questo filtro layer"
                 }
             },
@@ -1092,8 +1092,8 @@
             "changedFilterAlert": "Ci sono modifiche non salvate. Vuoi salvare il filtro applicato ?",
             "resetFilter": "Reset",
             "confirmReset": "Conferma",
-            "loadingError": "Il filtro corrente ha causato un problema di rendering per il livello sulla mappa. Controlla la configurazione del layer sul server o correggi il filtro",
-            "changedFilterWithErrorAlert": "Il filtro sta causando un errore di rendering del livello, vuoi comunque salvarlo?"
+            "loadingError": "Il filtro corrente ha causato un problema di rendering per il dato geografico sulla mappa tematica. Controlla la configurazione del layer sul server o correggi il filtro",
+            "changedFilterWithErrorAlert": "Il filtro sta causando un errore di rendering del dato geografico, vuoi comunque salvarlo?"
         },
         "annotations": {
             "errorLoadingSymbols": "Si è verificato un problema durante il caricamento dell'elenco dei simboli. Per favore, contatta l'amministratore per verificare le opzioni di configurazione",
@@ -1171,7 +1171,7 @@
                 },
                 "center": "Centro",
                 "add": "Aggiungi una nuova coordinata",
-                "addByClick": "Aggiungi nuove coordinate cliccando sul pulsante + o sulla mappa",
+                "addByClick": "Aggiungi nuove coordinate cliccando sul pulsante + o sulla mappa tematica",
                 "valid": "La geometria è valida",
                 "radius": "Raggio",
                 "text": "Testo",
@@ -1268,19 +1268,19 @@
         },
         "share": {
             "title": "Condividi",
-            "titlePanel": "Condividi la mappa",
+            "titlePanel": "Condividi la mappa tematica",
             "socialIntro": "Sul tuo social preferito",
             "directLinkTitle": "Con un Link diretto",
             "social": "Social",
             "direct": "Link",
             "code": "Embed",
             "embeddedLinkTitle": "Con il codice embedded",
-            "forceDrawer": "Mostra l'indice dei livelli",
+            "forceDrawer": "Mostra l'indice dei dati geografici",
             "apiLinkTitle": "Usando le API",
             "QRCodeLinkTitle": "Usando il QR Code",
             "msgCopiedUrl": "Copiato",
             "msgToCopyUrl": "Clicca per copiare",
-            "sharedTitle": "Guarda la mia nuova mappa: ",
+            "sharedTitle": "Guarda la mia nuova mappa tematica: ",
             "advancedOptions": "Opzioni avanzate",
             "addBboxParam": "Aggiungi il parametro bbox al link di condivisione",
             "wrongBboxParamTitle": "Parametro bbox non valido",
@@ -1293,9 +1293,9 @@
             "addMarkerAndZoomParam": "Aggiungi segnaposto e zoom per condividere il link",
             "addCenterAndZoomParam": "Aggiungi centro e ingrandisci per condividere il link",
             "zoom": "Ingrandisci",
-            "marker": "Aggiungi marcatore sulla mappa caricata",
+            "marker": "Aggiungi marcatore sulla mappa tematica caricata",
             "coordinate": "Coordinate",
-            "coordTooltip": "Clicca sulla mappa per ottenere le coordinate del centro",
+            "coordTooltip": "Clicca sulla mappa tematica per ottenere le coordinate del centro",
             "zoomToolTip": "Min: 1 e Max: 35",
             "showSectionId": "Includi posizione di scorrimento",
             "showConnections": "Mostra connessioni"
@@ -1303,45 +1303,45 @@
         "snapshot": {
             "title": "Istantanea",
             "save": "Salva",
-            "tooltip": "Salva un' istantanea della mappa.",
+            "tooltip": "Salva un' istantanea della mappa tematica.",
             "googleBingError": "Istantanea non disponibile per le restrizioni all' utilizzo dei layer Google e Bing.",
             "downloadingSnapshots": "generazioni di istantanee in corso...",
             "date": "Data",
-            "layers": "Livelli",
+            "layers": "Dati geografici",
             "size": "Dimensione",
             "notsupported": "Snapshot non supportato",
             "taintedMessage": "La funzionalità di salvataggio dell'istantanea è limitata a causa di alcune regole di sicurezza. Per un risultato migliore cliccare con il tasto destro sull'anteprima e selezionare  'Salva immagine con nome...' (supportato solo da Mozilla Firefox e Google Chrome)"
         },
         "shapefile": {
             "title": "Carica files vettoriali",
-            "tooltip": "Aggiungi uno file vettoriale alla mappa.",
+            "tooltip": "Aggiungi uno file vettoriale alla mappa tematica.",
             "placeholder": "Trascina qui i file o fai click per selezionare i file vettoriali da importare.(file supportati: SHAPEFILES contenuti in archivi zip, KML/KMZ, GPX)",
             "defaultStyle": "Stile di default",
             "zoom": "Zoom sui file",
             "error": {
                 "select": "Seleziona file corretto. File supportati: SHAPEFILES contenuti in archivi zip, KML/KMZ e GPX)",
                 "shapeFileParsingError": "Non è stato possibile caricare il file. Il file potrebbe essere danneggiato o non corretto",
-                "genericLoadError": "Il file non è stato caricato correttamente sulla mappa",
+                "genericLoadError": "Il file non è stato caricato correttamente sulla mappa tematica",
                 "missingPrj": "Mancono le informazioni sul sistema di riferimento (.prj), si utilizza EPSG:4326 come valore prdefinito"
             },
             "add": "Importa",
             "cancel": "Annulla",
-            "merge": "Unisci con il livello di annotazione esistente",
-            "replace": "Sostituisci il livello di annotazione esistente",
+            "merge": "Unisci con il dato geografico di annotazione esistente",
+            "replace": "Sostituisci il dato geografico di annotazione esistente",
             "success": " correttamente importato",
             "next": "Avanti",
             "skip": "Salta",
             "finish": "Fine",
             "layerOf": "Strato {count} dei {total}:",
-            "styleCustomizationDisabled":"Questo livello ha già uno stile definito e non è possibile personalizzarlo."
+            "styleCustomizationDisabled":"Questo dato geografico ha già uno stile definito e non è possibile personalizzarlo."
         },
         "mapImport": {
             "title": "Importa",
             "dropZone": {
-                "heading": "<p> <h4> Rilascia qui i contesti di mappa o i file vettoriali </h4> <small> o </small> </p>",
+                "heading": "<p> <h4> Rilascia qui i contesti di mappa tematica o i file vettoriali </h4> <small> o </small> </p>",
                 "selectFiles": "Seleziona i file...",
-                "infoSupported": "<p> <small> File di contesti di mappa supportati: formato legacy di MapStore, WMC<br /> File di livello vettoriale supportati: shapefile (devono essere contenuti in archivi zip), KML / KMZ, GPX, GeoJSON o Annotazioni </small> </p>",
-                "note": "<p> <small> <i> <strong> nota </strong>: la mappa corrente verrà sovrascritta in caso di nuovi contesti di mappa </i> </small> </p>"
+                "infoSupported": "<p> <small> File di contesti di mappa tematica supportati: formato legacy di MapStore, WMC<br /> File di dato geografico vettoriale supportati: shapefile (devono essere contenuti in archivi zip), KML / KMZ, GPX, GeoJSON o Annotazioni </small> </p>",
+                "note": "<p> <small> <i> <strong> nota </strong>: la mappa tematica corrente verrà sovrascritta in caso di nuovi contesti di mappa tematica </i> </small> </p>"
             },
             "errors": {
                 "fileNotSupported": "File non supportato",
@@ -1350,7 +1350,7 @@
             }
         },
         "mapExport": {
-            "title": "Esporta mappa",
+            "title": "Esporta mappa tematica",
             "exportPanel": {
                 "title": "<p><h4>Seleziona il tuo formato</h4></p>",
                 "exportButtonLabel": "Esportare"
@@ -1363,11 +1363,11 @@
                 "wmc": {
                     "label": "WMC",
                     "description": "<p><small>Formato OGC Web Map Context</small></p>",
-                    "note": "<p><small><i><strong>nota</strong>: il formato WMC supporta <strong>solo livelli WMS</strong></i></small></p>"
+                    "note": "<p><small><i><strong>nota</strong>: il formato WMC supporta <strong>solo dati geografici WMS</strong></i></small></p>"
                 }
             },
-            "errorTitle": "Esportazione della mappa non riuscita",
-            "wmcNoLayersError": "É necessario almeno un livello WMS per esportare in formato WMC. Non ne è stato trovato nessuno."
+            "errorTitle": "Esportazione della mappa tematica non riuscita",
+            "wmcNoLayersError": "É necessario almeno un dato geografico WMS per esportare in formato WMC. Non ne è stato trovato nessuno."
         },
         "catalog": {
             "start": "Data d'inizio ",
@@ -1378,7 +1378,7 @@
             "clearValueText": "Cancella selezione",
             "noResultsText": "Nessun risultato trovato",
             "tooltip": "Sfoglia Catalogo",
-            "addToMap": "Aggiungi alla mappa",
+            "addToMap": "Aggiungi alla mappa tematica",
             "getWMSLink": "Ottieni link WMS",
             "error": "C'è stato un errore durante il caricamento del catalogo",
             "pageInfo": "Risultati {start}-{end} di {total}",
@@ -1395,7 +1395,7 @@
             "delete": "Elimina",
             "reset": "Reset",
             "options": "Opzioni",
-            "srs_not_allowed": "Il sistema di coordinate della mappa non è supportato da questo servizio",
+            "srs_not_allowed": "Il sistema di coordinate della mappa tematica non è supportato da questo servizio",
             "add": "Aggiungi",
             "service": "Servizio",
             "servicePlaceholder": "seleziona un servizio",
@@ -1436,7 +1436,7 @@
             },
             "backgroundAlreadyAdded": "Aggiunto al selettore di sfondo",
             "enableLocalizedLayerStyles": {
-                "label": "Abilita stili di livello localizzati",
+                "label": "Abilita stili di dati geografici localizzati",
                 "tooltip": "Nota: questo parametro richiede configurazioni specifiche su GeoServer"
             },
             "format": {
@@ -1507,7 +1507,7 @@
                 "type": "Tipo di trasformazione",
                 "actions": "Azioni",
                 "options": "Opzioni trasformazioni",
-                "overviewlevels": "Livelli di overview",
+                "overviewlevels": "Dati geografici di overview",
                 "delete": "Elimina questa trasformazione"
             }
         },
@@ -1564,7 +1564,7 @@
         "pseudocolorsettings": {
             "type": "Tipo",
             "extended": "Extended",
-            "colormap": "Mappa colori",
+            "colormap": "Mappa tematica colori",
             "add": "Nuovo Elemento",
             "remove": "Rimuovi Elemento"
         },
@@ -1619,22 +1619,22 @@
                     "number": "Digita un numero o una espressione. Esempi: 10, > 2, < 10",
                     "date":"Digita una data o un'espressione. Utilizza {format} per la data",
                     "geometry": {
-                      "disabled": "Filtra facendo click sulla mappa / Alt + trascinamento per disegnare un filtro rettangolare. Tieni premuto anche ctrl per aggiungere features alla selezione corrente",
+                      "disabled": "Filtra facendo click sulla mappa tematica / Alt + trascinamento per disegnare un filtro rettangolare. Tieni premuto anche ctrl per aggiungere features alla selezione corrente",
                       "enabled": "Clicca per selezionare le features / Alt + trascinamento per disegnare un filtro rettangolare. Tieni premuto anche ctrl per aggiungere features alla selezione corrente",
                       "applied": "Pulisci la selezione"
                     }
                 }
             },
             "toolbar": {
-                "synchPopoverTitle": "Sincronizza la mappa con il filtro ",
-                "synchPopoverText": "Usa questa icona per sincronizzare la mappa con il filtro selezionato",
+                "synchPopoverTitle": "Sincronizza la mappa tematica con il filtro ",
+                "synchPopoverText": "Usa questa icona per sincronizzare la mappa tematica con il filtro selezionato",
                 "notShowAgain": "  Non mostrare più",
                 "editMode": "Entra in modalità editing",
                 "advancedFilter": "Ricerca avanzata",
                 "quitEditMode": "Esci dalla modalità editing",
                 "addNewFeatures": "Aggiungi una nuova feature",
                 "editFeature": "Modifica la feature",
-                "drawGeom": "Disegna sulla mappa una nuova geometria",
+                "drawGeom": "Disegna sulla mappa tematica una nuova geometria",
                 "stopDrawGeom": "Annulla la creazione della geometria",
                 "addGeom": "Aggiungi un elemento alla geometria esistente",
                 "deleteSelectedFeatures": "Elimina le feature selezionate",
@@ -1645,10 +1645,10 @@
                 "downloadGridData": "Esporta i dati della griglia",
                 "hideShowColumns": "Nascondi/mostra colonne",
                 "zoomAll": "Zoom all'estensione della pagina",
-                "syncOnMap": "Sincronizza la mappa con i filtri",
+                "syncOnMap": "Sincronizza la mappa tematica con i filtri",
                 "enableTimeSync": "Sincronizza con l'istante o l'intervallo temporale selezionato",
                 "disableTimeSync": "Non sincronizzare con l'istante o l'intervallo temporale selezionato",
-                "createNewChart": "crea un grafico per il livello selezionato"
+                "createNewChart": "crea un grafico per il dato geografico selezionato"
             }
         },
         "layerdownload": {
@@ -1668,12 +1668,12 @@
                 "title": "Errore durante l'esportazione",
                 "invalidOutputFormat": "Il formato selezionato non è disponibile",
                 "downloadEstimatorTitle": "Errore DownloadEstimator",
-                "downloadEstimatorFailed": "Richiesta DownloadEstimator non riuscita, il che significa che il file esportato supera i limiti del server configurato. Prova a modificare le opzioni di download o aggiungi un filtro al tuo livello e riprova."
+                "downloadEstimatorFailed": "Richiesta DownloadEstimator non riuscita, il che significa che il file esportato supera i limiti del server configurato. Prova a modificare le opzioni di download o aggiungi un filtro al tuo dato geografico e riprova."
             },
             "exportResultsMessages": {
                 "newExport": "Il file sarà disponibile qui al termine dell'esportazione",
-                "exportFailure": "Esportazione per il livello \"{layerTitle}\" non riuscita! Apri la finestra di dialogo dei risultati di esportazione per ulteriori informazioni.",
-                "exportSuccess": "L'esportazione per il livello \"{layerTitle}\" è terminata correttamente.",
+                "exportFailure": "Esportazione per il dato geografico \"{layerTitle}\" non riuscita! Apri la finestra di dialogo dei risultati di esportazione per ulteriori informazioni.",
+                "exportSuccess": "L'esportazione per il dato geografico \"{layerTitle}\" è terminata correttamente.",
                 "invalidHref": "La risposta dal server non conteneva un indirizzo URL valido per i file esportati!"
             },
             "wpsExecuteError": {
@@ -1683,7 +1683,7 @@
                 "getExecutionStatusXhrFailed": "Richiesta GetExecutionStatus non riuscita! Il server potrebbe essere configurato in modo errato o è diventato irraggiungibile",
                 "unexpectedError": "Si è verificato un errore imprevisto"
             },
-            "noSupportedServiceFound": "Il server non supporta il download WFS o WPS per questo livello!"
+            "noSupportedServiceFound": "Il server non supporta il download WFS o WPS per questo dato geografico!"
         },
         "exportDataResults": {
             "title": "Esporta i risultati dei dati",
@@ -1692,8 +1692,8 @@
         "widgets": {
             "types": {
                 "map": {
-                    "title": "Mappa",
-                    "caption": "aggiungi una mappa"
+                    "title": "Mappa tematica",
+                    "caption": "aggiungi una mappa tematica"
                 },
                 "legend": {
                     "title": "Legenda",
@@ -1722,21 +1722,21 @@
             },
             "selectMap": {
                 "TOC": {
-                    "noLayerTitle": "Nessun livello",
-                    "noLayerDescription": "Non ci sono livelli nella mappa. Se si desidera aggiungere un layer dal catalogo fare clic sul pulsante '+' nella barra degli strumenti in alto"
+                    "noLayerTitle": "Nessun dato geografico",
+                    "noLayerDescription": "Non ci sono dati geografici nella mappa tematica. Se si desidera aggiungere un layer dal catalogo fare clic sul pulsante '+' nella barra degli strumenti in alto"
                 },
                 "emptyMap": {
-                    "title": "Mappa vuota",
-                    "description": "Inizia da una mappa vuota"
+                    "title": "Mappa tematica vuota",
+                    "description": "Inizia da una mappa tematica vuota"
                 }
             },
             "title": "Titolo",
             "description": "Descrizione",
             "errors": {
                 "notext": "Nessun testo disponibile",
-                "nodata": "Nessun dato disponibile per il livello/filtro selezionati",
+                "nodata": "Nessun dato disponibile per il dato geografico/filtro selezionati",
                 "noLegend": "Nessuna legenda da mostrare",
-                "noLegendDescription": "La mappa connessa non ha legende da mostrare",
+                "noLegendDescription": "La mappa tematica connessa non ha legende da mostrare",
                 "nodatainviewport": "Nessun dato per la vista selezionata",
                 "timeoutExpired": "Il servizio ha impiegato troppo tempo a rispondere. La query potrebbe essere troppo complicata o il server troppo occupato",
                 "genericError": "C'è stato un errore durante la generazione del grafico",
@@ -1750,12 +1750,12 @@
                     "backToTypeSelection": "Torna alla selezione del tipo di grafico",
                     "backToWidgetTypeSelection": "Torna alla selezione del tipo di widget",
                     "backToFeatureGrid": "Torna alla tabella degli attributi",
-                    "backToLayerSelection": "Torna alla selezione del livello",
-                    "backToMapSelection": "Torna alla selezione della mappa",
+                    "backToLayerSelection": "Torna alla selezione del dato geografico",
+                    "backToMapSelection": "Torna alla selezione della mappa tematica",
                     "backToPreview": "Torna all'anteprima",
                     "backToChartOptions": "Torna alle opzioni del grafico",
-                    "selectALayer": "Seleziona un livello",
-                    "selectAMap": "Seleziona una mappa",
+                    "selectALayer": "Seleziona un dato geografico",
+                    "selectAMap": "Seleziona una mappa tematica",
                     "configureChartOptions": "Configura le opzioni del grafico",
                     "configureWidgetOptions": "Configura le opzioni del widget",
                      "backToTableOptions": "Torna alle opzioni della tabella",
@@ -1765,13 +1765,13 @@
                     "addTheWidget": "Aggiungi il widget",
                     "titlePlaceholder": "Inserisci il titolo...",
                     "textPlaceholder": "Inserisci il testo...",
-                    "useThisMap": "Usa questa mappa",
-                    "configureMapOptions": "Configura opzioni mappa",
+                    "useThisMap": "Usa questa mappa tematica",
+                    "configureMapOptions": "Configura opzioni mappa tematica",
                     "enableIdentifyTool": "Attiva lo strumento di identificazione",
                     "disableIdentifyTool": "Disabilita lo strumento di identificazione",
                     "preview": "Anteprima",
-                    "addLayer": "Aggiungi un livello alla mappa",
-                    "useTheSelectedLayer": "Usa il livello selezionato",
+                    "addLayer": "Aggiungi un dato geografico alla mappa tematica",
+                    "useTheSelectedLayer": "Usa il dato geografico selezionato",
                     "connectToAMap": "Connetti ad un altro widget",
                     "connectToTheMap": "Connetti all'altro widget",
                     "selectMapToConnect": "Seleziona il widget da connettere",
@@ -1780,13 +1780,13 @@
                 "errors": {
                     "noAttributesTitle": "Nessun attributo disponibile",
                     "noAttributesDescription": "Il layer selezonato non ha atrributi da mostrare. Selezionare un altro layer o un altro tipo di widget.",
-                    "noWidgetsAvailableTitle": "Impossibile creare il widget per il livello selezionato",
-                    "noWidgetsAvailableDescription": "<p><strong> Prova a selezionare un altro livello o tipo di widget </strong> </p><p>Il server non fornisce i servizi necessari per il livello e il tipo di widget selezionato </p> <p> Le possibili cause sono: <ul> <li> Il livello selezionato è un livello raster </li> <li> Il servizio WFS non è disponibile </li><li> Il processo WPS <code>gs:aggregate</code> non è disponibile </li> </ul></p>",
+                    "noWidgetsAvailableTitle": "Impossibile creare il widget per il dato geografico selezionato",
+                    "noWidgetsAvailableDescription": "<p><strong> Prova a selezionare un altro dato geografico o tipo di widget </strong> </p><p>Il server non fornisce i servizi necessari per il dato geografico e il tipo di widget selezionato </p> <p> Le possibili cause sono: <ul> <li> Il dato geografico selezionato è un dato geografico raster </li> <li> Il servizio WFS non è disponibile </li><li> Il processo WPS <code>gs:aggregate</code> non è disponibile </li> </ul></p>",
                     "checkAtLeastOneAttribute": "seleziona almeno un attributo",
-                    "noMapAvailableForLegend": "Nessuna mappa disponibile",
-                    "noMapAvailableForLegendDescription": "C'è bisogno almeno di una mappa per creare una lagenda"
+                    "noMapAvailableForLegend": "Nessuna mappa tematica disponibile",
+                    "noMapAvailableForLegendDescription": "C'è bisogno almeno di una mappa tematica per creare una lagenda"
                 },
-                "setupFilter": "Configura un filtro per il livello selezionato"
+                "setupFilter": "Configura un filtro per il dato geografico selezionato"
             },
             "widget": {
                 "menu": {
@@ -1810,22 +1810,22 @@
             "chartType": {
                 "bar": {
                     "title": "Istogramma",
-                    "description": "Crea un istogramma da aggiungere alla mappa",
+                    "description": "Crea un istogramma da aggiungere alla mappa tematica",
                     "caption": "istogramma"
                 },
                 "pie": {
                     "title": "Torta",
-                    "description": "Crea un diagramma a torta da aggiungere alla mappa",
+                    "description": "Crea un diagramma a torta da aggiungere alla mappa tematica",
                     "caption": "torta"
                 },
                 "line": {
                     "title": "Grafico a Linea",
-                    "description": "Crea un grafico a linea da aggiungere alla mappa",
+                    "description": "Crea un grafico a linea da aggiungere alla mappa tematica",
                     "caption": "linea"
                 },
                 "gauge": {
                     "title": "Cruscotto",
-                    "description": "Crea un cruscotto da aggiungere alla mappa",
+                    "description": "Crea un cruscotto da aggiungere alla mappa tematica",
                     "caption": "cruscotto"
                 }
             },
@@ -1979,7 +1979,7 @@
                     "title": "Errore di caricamento del contesto",
                     "notAccessible": "Risorsa non accessibile",
                     "pleaseLogin": "Alcune risorse potrebbero non essere pubbliche. Si prega di provare ad effettuare il login",
-                    "unknownError": "Si è verificato un errore durante il caricamento della mappa o del contesto. Si prega di contattare l'amministratore",
+                    "unknownError": "Si è verificato un errore durante il caricamento della mappa tematica o del contesto. Si prega di contattare l'amministratore",
                     "notFound": "Risorsa non trovata"
                 },
                 "context": {
@@ -1996,10 +1996,10 @@
                     "notFound": "Il modello a cui stai tentando di accedere non esiste"
                 },
                 "map": {
-                    "notAccessible": "Non si hanno i permessi di accesso a questa mappa. Si prega di contattare l'amministratore per ottenere l'accesso",
-                    "pleaseLogin": "Questa mappa mappa non è pubblica. Si prega di provare ad effettuare il login",
-                    "unknownError": "Si è verificato un errore durante il caricamento della mappa. Si prega di contattare l'amministratore",
-                    "notFound": "La mappa si sta tentando di accedere non esiste"
+                    "notAccessible": "Non si hanno i permessi di accesso a questa mappa tematica. Si prega di contattare l'amministratore per ottenere l'accesso",
+                    "pleaseLogin": "Questa mappa tematica mappa tematica non è pubblica. Si prega di provare ad effettuare il login",
+                    "unknownError": "Si è verificato un errore durante il caricamento della mappa tematica. Si prega di contattare l'amministratore",
+                    "notFound": "La mappa tematica si sta tentando di accedere non esiste"
                 },
                 "plugins": {
                     "upload": "Errore durante l'upload del plugin",
@@ -2223,7 +2223,7 @@
             "imageSrcInvalidBase64": "Questa non è un'immagine base64 valida. Alcuni renderer di stili non supportano questo tipo di risorsa, potresti invece utilizzare una immagine con URL esterno",
             "imageSrcNotSupportedBase64Image": "Alcuni renderer di stili non supportano le immagini base64 anche se la risorsa è valida",
             "warningTextOrderTitle": "Attenzione",
-            "warningTextOrder": "L'ordine delle regole che contengono etichette potrebbe non corrispondere all'ordine di disegno sulla mappa. Questo comportamento è correlato ad alcuni motori di rendering che disegnano etichette sopra alle altre regole"
+            "warningTextOrder": "L'ordine delle regole che contengono etichette potrebbe non corrispondere all'ordine di disegno sulla mappa tematica. Questo comportamento è correlato ad alcuni motori di rendering che disegnano etichette sopra alle altre regole"
         },
         "playback": {
             "settings": {
@@ -2237,10 +2237,10 @@
                     "animationEnd": "Fine animazione",
                     "zoomToCurrentPlayackRange": "Zoom all'intervallo di riproduzione corrente",
                     "setToCurrentViewRange": "Imposta sull'intervallo di visualizzazione corrente",
-                    "fitToSelectedLayerRange": "Adatta ai dati del livello selezionato"
+                    "fitToSelectedLayerRange": "Adatta ai dati del dato geografico selezionato"
                 },
                 "step": {
-                    "tooltip": "Quando l'opzione 'Aggancia al livello guida' è disabilitata, si può personalizzare il passo di animazione",
+                    "tooltip": "Quando l'opzione 'Aggancia al dato geografico guida' è disabilitata, si può personalizzare il passo di animazione",
                     "label": "Passo di animazione",
                     "year": "{number, plural, =0 {Anni} =1 {Anno} other {Anni}}",
                     "week": "{number, plural, =0 {Settimane} =1 {Settimana} other {Settimane}}",
@@ -2265,18 +2265,18 @@
         "timeline": {
             "settings": {
                 "title": "Impostazione linea di tempo",
-                "snapToGuideLayer": "Aggancia al livello guida",
-                "snapToGuideLayerTooltip": "Forza il cursore del tempo in modo che si agganci ai dati del livello selezionato. Disattiva questa opzione per sbloccare i cursori temporali e abilitare la personalizzazione del passo di animazione"
+                "snapToGuideLayer": "Aggancia al dato geografico guida",
+                "snapToGuideLayerTooltip": "Forza il cursore del tempo in modo che si agganci ai dati del dato geografico selezionato. Disattiva questa opzione per sbloccare i cursori temporali e abilitare la personalizzazione del passo di animazione"
             },
             "hide": "Nascondi timeline",
             "show": "Mostra timeline",
-            "mapSyncOn": "Mostra tutti i tempi, senza filtrare per zona di mappa visibile",
-            "mapSyncOff": "Mostra solo i tempi nella zona di mappa visibile",
+            "mapSyncOn": "Mostra tutti i tempi, senza filtrare per zona di mappa tematica visibile",
+            "mapSyncOff": "Mostra solo i tempi nella zona di mappa tematica visibile",
             "currentTime": "Istante corrente",
             "rangeStart": "Vai all'intervallo di tempo corrente",
             "rangeEnd": "Vai all'intervallo di tempo corrente",
-            "hideLayerName": "Nascondi i nomi dei livelli",
-            "showLayerName": "Mostra i nomi dei livelli",
+            "hideLayerName": "Nascondi i nomi dei dati geografici",
+            "showLayerName": "Mostra i nomi dei dati geografici",
             "enableRange": "Abilita intervallo",
             "disableRange": "Disabilita intervallo",
             "enablePlayBack": "Abilita i controlli di riproduzione",
@@ -2381,7 +2381,7 @@
         },
         "geostory": {
             "storyResources": "Risorse della Storia",
-            "geostoreMap": "Mappe di MapStore",
+            "geostoreMap": "Mappe tematiche di MapStore",
             "loadingSpinner": "Caricamento Storia",
             "addTitleSection": "Aggiungi sezione titolo",
             "addBannerSection": "Aggiungi sezione banner",
@@ -2396,8 +2396,8 @@
             "addWebPageContent": "Aggiungi contenuto alla pagina Web",
             "emptyTitle": "Questa storia è vuota",
             "emptyDescription": "Inizia a creare una fantastica storia aggiungendo dei nuovi contenuti",
-            "closeFullscreenMap": "Chiudi mappa",
-            "showFullscreenMap": "Visualizza mappa a pieno schermo",
+            "closeFullscreenMap": "Chiudi mappa tematica",
+            "showFullscreenMap": "Visualizza mappa tematica a pieno schermo",
             "contentToolbar": {
                 "contentSize": "Cambia Dimensione",
                 "contentHeightAuto": "Adatta la sezione all'altezza del contenuto",
@@ -2424,16 +2424,16 @@
                 "remove": "Elimina",
                 "removeConfirmTitle": "Sei sicuro?",
                 "removeConfirmContent": "Vuoi rimuovere questi contenuti dalla storia?",
-                "editMap": "Modifica mappa",
-                "resetMap": "Ripristina mappa originale",
+                "editMap": "Modifica mappa tematica",
+                "resetMap": "Ripristina mappa tematica originale",
                 "resetMapConfirm": "Ripristina Configurazione",
-                "resetConfirmContent": "Ripristinare la configurazione di mappa originale?",
+                "resetConfirmContent": "Ripristinare la configurazione di mappa tematica originale?",
                 "saveChanges": "Salva le modifiche",
                 "closeMapEditing": "Chiudi editing",
-                "confirmCloseMapEditing": "Chiudi editing mappa",
+                "confirmCloseMapEditing": "Chiudi editing mappa tematica",
                 "pendingChangesDiscardConfirm": "Vuoi scartare le modifiche?",
                 "editURL": "Modifica l'URL della pagina web",
-                "advancedMapEditor": "Apri editor di mappe avanzato",
+                "advancedMapEditor": "Apri editor di mappe tematiche avanzato",
                 "enableAudio": "Abilita audio",
                 "disableAudio": "Disabilita audio",
                 "enableAutoplay": "Abilita riproduzione automatica",
@@ -2494,7 +2494,7 @@
                     "webFontLoadError": "Impossibile caricare alcuni caratteri dalla configurazione locale",
                     "fontSize": "Dimensione del font",
                     "overlay": "Copertura",
-                    "templateTooltip":"Questa impostazione consente di abilitare la funzione di Identify sulla mappa definendo un formato generico per tutti i layer. E' possibile configurare un formato differente per ogni singolo livello usando l'editor di mappa avanzato (icona matita). Per maggiori informazioni si consulti la <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'>guida utente</a>. Se un layer ha definito il proprio formato di Identify, questo esso verrà usato al posto di quello generico impostato a livello di mappa."
+                    "templateTooltip":"Questa impostazione consente di abilitare la funzione di Identify sulla mappa tematica definendo un formato generico per tutti i layer. E' possibile configurare un formato differente per ogni singolo dato geografico usando l'editor di mappa tematica avanzato (icona matita). Per maggiori informazioni si consulti la <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'>guida utente</a>. Se un layer ha definito il proprio formato di Identify, questo esso verrà usato al posto di quello generico impostato a dato geografico di mappa tematica."
                 }
             },
             "errors": {
@@ -2510,7 +2510,7 @@
                 }
             },
             "mapEditor": {
-                "configureMapOptions": "Configurazione mappa",
+                "configureMapOptions": "Configurazione mappa tematica",
                 "settings": "Impostazioni",
                 "settingsSubTitle": "Gestisci le interazioni dell'utente",
                 "toc": "Toc",
@@ -2567,15 +2567,15 @@
             "saveSuccessMessage": "Salvata con successo"
         },
         "mapEditor": {
-            "modalTitle": "Editor di Mappa",
-            "confirmExitTitle": "Chiudi Editor di Mappa",
+            "modalTitle": "Editor di Mappa tematica",
+            "confirmExitTitle": "Chiudi Editor di Mappa tematica",
             "confirmExitContent": "Annullare le modifiche ed uscire?"
         },
         "mediaEditor": {
             "modalTitle": "Media",
             "images": "Immagini",
             "videos": "Video",
-            "maps": "Mappe",
+            "maps": "Mappe tematiche",
             "preview": "Anteprima",
             "apply": "Applica",
             "confirmExitTitle": "Chiudi Media Editor",
@@ -2599,7 +2599,7 @@
                 "description": "Descrizione",
                 "creditsPlaceholder": "Inserisci i crediti",
                 "credits": "Crediti",
-                "mapFilter": "Filtra mappe",
+                "mapFilter": "Filtra mappe tematiche",
                 "videoFilter": "Filtra video",
                 "imageFilter": "Filtra immagini",
                 "import": "Importa la risorsa localmente",
@@ -2616,8 +2616,8 @@
             },
             "mapForm": {
                 "thumbnailMessage": "Le dimensioni delle immagini devono essere di un quadrato di 98 px x 98 px, max 100 KB",
-                "confirmMapSaveTitle": "Aggiornare la mappa",
-                "confirmMapSaveContent": "L'aggiornamento di questa mappa ripristinerà tutte le mappe dipendenti nella storia precedentemente personalizzate tramite l'editor in linea, conferma?"
+                "confirmMapSaveTitle": "Aggiornare la ",
+                "confirmMapSaveContent": "L'aggiornamento di questa mappa tematica ripristinerà tutte le mappe tematiche dipendenti nella storia precedentemente personalizzate tramite l'editor in linea, conferma?"
             },
             "mediaList" : {
                 "removeResourceTitle": "Sei sicuro?",
@@ -2629,7 +2629,7 @@
                 "emptyList": "Premere il pulsante più per aggiungere una nuova immagine. Per maggiori informazioni consulta <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#images' target='_blank'/>questa</a> guida"
             },
             "mapList": {
-                "emptyList": "Premere il pulsante più per creare una mappa o selezionare un altro servizio di mappe. Per maggiori informazioni consulta <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#maps' target='_blank'/>questa</a> guida"
+                "emptyList": "Premere il pulsante più per creare una mappa tematica o selezionare un altro servizio di mappe tematiche. Per maggiori informazioni consulta <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#maps' target='_blank'/>questa</a> guida"
             },
             "videoList": {
                 "emptyList": "Premere il pulsante più per aggiungere un nuovo video. Per maggiori informazioni consulta <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#videos' target='_blank'/>questa</a> guida"
@@ -2671,19 +2671,19 @@
             "title": "About"
           },
           "AddGroup": {
-            "description": "Consente agli utenti di creare nuovi gruppi di livelli alla TOC",
-            "title": "Aggiungi gruppo di livelli"
+            "description": "Consente agli utenti di creare nuovi gruppi di dati geografici alla TOC",
+            "title": "Aggiungi gruppo di dati geografici"
           },
           "Annotations": {
-            "description": "Strumento per disegnare annotazioni sulla mappa",
+            "description": "Strumento per disegnare annotazioni sulla mappa tematica",
             "title": "Annotazioni"
           },
           "AutoMapUpdate": {
-            "description": "Consente all'utente di aggiornare la mappa (vecchia versione di mapstore)",
-            "title": "Aggiornamento automatico della mappa"
+            "description": "Consente all'utente di aggiornare la mappa tematica (vecchia versione di mapstore)",
+            "title": "Aggiornamento automatico della mappa tematica"
           },
           "BackgroundSelector": {
-            "description": "Permette di selezionare lo sfondo della mappa",
+            "description": "Permette di selezionare lo sfondo della mappa tematica",
             "title": "Selettore di sfondo"
           },
           "BurgerMenu": {
@@ -2691,12 +2691,12 @@
             "title": "Burger Menu"
           },
           "CRSSelector": {
-            "description": "Permette di cambiare la proiezione della mappa",
+            "description": "Permette di cambiare la proiezione della mappa tematica",
             "title": "Selettore CRS"
           },
           "Details": {
-            "description": "Consentire di mostrare la scheda dettagli per una mappa, se presente",
-            "title": "Dettagli mappa"
+            "description": "Consentire di mostrare la scheda dettagli per una mappa tematica, se presente",
+            "title": "Dettagli mappa tematica"
           },
           "Expander": {
             "description": "Utilità per la Sidebar (navigazione) per nasconere alcuni pulsanti",
@@ -2707,8 +2707,8 @@
             "title": "Tabella degli attributi"
           },
           "FilterLayer": {
-            "description": "Consente di aggiungere un filtro a un livello",
-            "title": "Filtra Livello"
+            "description": "Consente di aggiungere un filtro a un dato geografico",
+            "title": "Filtra Dato geografico"
           },
           "HelpLink": {
             "description": "Un pulsante per accedere alla documentazione di MapStore",
@@ -2719,11 +2719,11 @@
             "title": "Home"
           },
           "Identify": {
-            "description": "Interroga gli oggetti sulla mappa",
+            "description": "Interroga gli oggetti sulla mappa tematica",
             "title": "Identificare"
           },
           "Locate": {
-            "description": "Trova e segue la posizione dell'utente sulla mappa",
+            "description": "Trova e segue la posizione dell'utente sulla mappa tematica",
             "title": "Strumento di localizzazione"
           },
           "Login": {
@@ -2731,27 +2731,27 @@
             "title": "Login"
           },
           "MapCatalog": {
-            "description": "Consente la navigazione, la modifica, l'eliminazione e il caricamento di mappe disponibili sul server",
-            "title": "Catalogo mappe"
+            "description": "Consente la navigazione, la modifica, l'eliminazione e il caricamento di mappe tematiche disponibili sul server",
+            "title": "Catalogo mappe tematiche"
           },
           "MapExport": {
-            "description": "Permette di esportare la mappa in un file",
-            "title": "Esporta Mappa"
+            "description": "Permette di esportare la mappa tematica in un file",
+            "title": "Esporta Mappa tematica"
           },
           "MapImport": {
-            "description": "Permette di importare dati (SHP, KML / KMZ, GeoJSON, GPX) o ricaricare mappe esportate.",
+            "description": "Permette di importare dati (SHP, KML / KMZ, GeoJSON, GPX) o ricaricare mappe tematiche esportate.",
             "title": "Importare"
           },
           "MapLoading": {
-            "description": "Uno spinner nella barra laterale che indica quando la mappa sta caricando",
-            "title": "Indicatore di caricamento mappa"
+            "description": "Uno spinner nella barra laterale che indica quando la mappa tematica sta caricando",
+            "title": "Indicatore di caricamento mappa tematica"
           },
           "Measure": {
-            "description": "Permette di misurare distanze e aree sulla mappa",
+            "description": "Permette di misurare distanze e aree sulla mappa tematica",
             "title": "Misura"
           },
           "MetadataExplorer": {
-            "description": "Sfoglia i servizi (WMS / WMTS / CSW) per aggiungere livelli alla mappa",
+            "description": "Sfoglia i servizi (WMS / WMTS / CSW) per aggiungere dati geografici alla mappa tematica",
             "title": "Catalogo"
           },
           "MousePosition": {
@@ -2759,19 +2759,19 @@
             "title": "Posizione del mouse"
           },
           "Print": {
-            "description": "Permette di stampare la mappa corrente con la legenda",
+            "description": "Permette di stampare la mappa tematica corrente con la legenda",
             "title": "Strumento di stampa"
           },
           "Save": {
-            "description": "Permette di salvare le modifiche alla mappa sul server",
+            "description": "Permette di salvare le modifiche alla mappa tematica sul server",
             "title": "Salva"
           },
           "SaveAs": {
-            "description": "Permette di salvare o clonare mappe sul server",
+            "description": "Permette di salvare o clonare mappe tematiche sul server",
             "title": "Salva come..."
           },
           "ScaleBox": {
-            "description": "Un indicatore e un selettore della scala corrente della mappa",
+            "description": "Un indicatore e un selettore della scala corrente della mappa tematica",
             "title": "Selettore di Scala"
           },
           "Search": {
@@ -2779,11 +2779,11 @@
             "title": "Barra di ricerca"
           },
           "Settings": {
-            "description": "Permette di modificare alcune impostazioni per la mappa (lingua, formato info predefinito ...)",
+            "description": "Permette di modificare alcune impostazioni per la mappa tematica (lingua, formato info predefinito ...)",
             "title": "Impostazioni"
           },
           "Share": {
-            "description": "Permette di condividere la mappa in diversi modi (link, QR-Code, embed, social network ...)",
+            "description": "Permette di condividere la mappa tematica in diversi modi (link, QR-Code, embed, social network ...)",
             "title": "Strumento di condivisione"
           },
           "StyleEditor": {
@@ -2791,12 +2791,12 @@
             "title": "Editor degli Stili"
           },
           "TOC": {
-            "description": "Fornisce l'elenco dei livelli con la possibilità di ordinarli",
-            "title": "Elenco dei livelli"
+            "description": "Fornisce l'elenco dei dati geografici con la possibilità di ordinarli",
+            "title": "Elenco dei dati geografici"
           },
           "TOCItemsSettings": {
-            "description": "Consenti di modificare le impostazioni dei livelli",
-            "title": "Impostazioni livello"
+            "description": "Consenti di modificare le impostazioni dei dati geografici",
+            "title": "Impostazioni dato geografico"
           },
           "Timeline": {
             "description": "Permette di viaggiare nel tempo con i dati con dimensione temporale",
@@ -2824,11 +2824,11 @@
             "title": "Scarica dati"
           },
           "Widgets": {
-            "description": "Permette di aggiungere e mostrare widget sulla mappa",
+            "description": "Permette di aggiungere e mostrare widget sulla mappa tematica",
             "title": "Widgets"
           },
           "WidgetsTray": {
-            "description": "Un vassoio per comprimere ed espandere i widget sulla mappa.",
+            "description": "Un vassoio per comprimere ed espandere i widget sulla mappa tematica.",
             "title": "Vassoio widget"
           },
           "Globe": {
@@ -2836,15 +2836,15 @@
             "title": "3D"
           },
           "ZoomAll": {
-            "description": "Pulsante della barra laterale per ingrandire l'estensione della mappa della mappa",
+            "description": "Pulsante della barra laterale per ingrandire l'estensione della mappa tematica della mappa tematica",
             "title": "Zoom al massima Estensione"
           },
           "ZoomIn": {
-            "description": "Pulsante che aumenta il livello di zoom della mappa",
+            "description": "Pulsante che aumenta il dato geografico di zoom della mappa tematica",
             "title": "Zoom in"
           },
           "ZoomOut": {
-            "description": "Pulsante che diminuisce il livello di zoom della mappa",
+            "description": "Pulsante che diminuisce il dato geografico di zoom della mappa tematica",
             "title": "Zoom Out"
           }
         },
@@ -2915,10 +2915,10 @@
                 "searchResultsEmpty": "Nessun modello trovato che soddisfa i criteri di ricerca",
                 "fileDrop": {
                     "label": "Modello",
-                    "clear": "Trascina o fai clic per selezionare un file modello mappa (sono supportate le mappe JSON MapStore esportate oi file WMC)"
+                    "clear": "Trascina o fai clic per selezionare un file modello mappa tematica (sono supportate le mappe tematiche JSON MapStore esportate oi file WMC)"
                 },
                 "uploadDialog": {
-                    "title": "Carica modello mappa",
+                    "title": "Carica modello mappa tematica",
                     "save": "Caricare",
                     "jsonParsingError": "Analisi JSON non riuscita: \"{error}\"",
                     "fileReadError": "Si è verificato un errore di lettura del file imprevisto"
@@ -2932,9 +2932,9 @@
                 "deleteConfirm": "Sei sicuro di voler eliminare il modello \"{templateName}\"?"
             },
             "configureMap": {
-                "label": "Configura mappa",
-                "reload": "Ricarica la mappa",
-                "confirm": "Questo annullerà tutte le attuali modifiche della mappa. Procedere?"
+                "label": "Configura mappa tematica",
+                "reload": "Ricarica la mappa tematica",
+                "confirm": "Questo annullerà tutte le attuali modifiche della mappa tematica. Procedere?"
             },
             "saveErrorNotification": {
                 "titleContext": "Salvataggio del contesto non riuscito",
@@ -2970,60 +2970,60 @@
           "removeExtension": "Rimuovi Estensione"
         },
         "mapTemplates": {
-            "title": "Modelli di mappe",
+            "title": "Modelli di mappe tematiche",
             "favouritesTitle": "Preferiti",
             "allTitle": "Tutti",
-            "filterPlaceholder": "Filtra i modelli di mappe...",
-            "transfer": "Sostituisci mappa con questo modello",
-            "merge": "Aggiungi questo modello alla mappa",
+            "filterPlaceholder": "Filtra i modelli di mappe tematiche...",
+            "transfer": "Sostituisci mappa tematica con questo modello",
+            "merge": "Aggiungi questo modello alla mappa tematica",
             "favouriteAdd": "Aggiungi ai preferiti",
             "favouriteRemove": "Rimuovi dai preferiti",
             "emptyTitle": "Nessun risultato",
             "emptyDescription": "Il filtro inserito non corrisponde al nome o alla descrizione di nessuno dei modelli",
             "noTemplatesTitle": "Nessun modello trovato",
             "noTemplatesDescription": "Il contesto corrente non contiene modelli",
-            "confirmReplaceTitle": "Sostituisci il contenuto della mappa",
-            "confirmReplaceMessage": "Sostituirai tutti i livelli e la configurazione della mappa con il modello selezionato facendo clic sul pulsante Sostituisci",
+            "confirmReplaceTitle": "Sostituisci il contenuto della mappa tematica",
+            "confirmReplaceMessage": "Sostituirai tutti i dati geografici e la configurazione della mappa tematica con il modello selezionato facendo clic sul pulsante Sostituisci",
             "confirmReplaceConfirmButton": "Sostituire"
         },
         "mapCatalog": {
-            "title": "Catalogo mappe",
-            "filterPlaceholder": "Cerca mappe...",
-            "deleteConfirmContent": "Sei sicuro di voler eliminare la mappa \"{mapName}\"?",
+            "title": "Catalogo mappe tematiche",
+            "filterPlaceholder": "Cerca mappe tematiche...",
+            "deleteConfirmContent": "Sei sicuro di voler eliminare la mappa tematica \"{mapName}\"?",
             "tooltips": {
                 "edit": "Modifica proprietà",
                 "delete": "Elimina risorsa",
                 "share": "Condividi"
             },
             "deletedMap": {
-                "title": "Mappa cancellata",
-                "message": "La mappa è stata eliminata correttamente"
+                "title": "Mappa tematica cancellata",
+                "message": "La mappa tematica è stata eliminata correttamente"
             },
             "updatedMap": {
-                "title": "Mappa Salvata",
-                "message": "La mappa è stata salvata correttamente"
+                "title": "Mappa tematica Salvata",
+                "message": "La mappa tematica è stata salvata correttamente"
             },
-            "deleteError": "Si è verificato un errore imprevisto durante l'eliminazione della mappa",
-            "updateError": "Si è verificato un errore imprevisto durante il salvataggio della mappa"
+            "deleteError": "Si è verificato un errore imprevisto durante l'eliminazione della mappa tematica",
+            "updateError": "Si è verificato un errore imprevisto durante il salvataggio della mappa tematica"
         },
         "layerInfo": {
-            "title": "Aggiorna titoli e descrizioni dei livelli",
-            "noLayers": "Nessun livello trovato",
+            "title": "Aggiorna titoli e descrizioni dei dati geografici",
+            "noLayers": "Nessun dato geografico trovato",
             "syncButton": "Sincronizza titoli e descrizioni",
             "selectAll": "Seleziona tutto",
             "deselectAll": "Deselezionare tutto",
-            "updatingLayers": "Aggiornamento dei livelli {updatedCount}/{totalCount}",
+            "updatingLayers": "Aggiornamento dei dati geografici {updatedCount}/{totalCount}",
             "tooltips": {
-                "syncSuccess": "Titolo e descrizione sono stati aggiornati con successo per questo livello",
-                "syncError": "Non è possibile aggiornare il titolo e la descrizione di questo livello. È possibile verificare se tutte le opzioni di livello sono corrette nel pannello delle impostazioni"
+                "syncSuccess": "Titolo e descrizione sono stati aggiornati con successo per questo dato geografico",
+                "syncError": "Non è possibile aggiornare il titolo e la descrizione di questo dato geografico. È possibile verificare se tutte le opzioni di dato geografico sono corrette nel pannello delle impostazioni"
             },
             "syncingLayersSavingToServerError": {
                 "title": "Errore di salvataggio del server",
-                "message": "Si è verificato un errore imprevisto durante il salvataggio dei livelli aggiornati sul server"
+                "message": "Si è verificato un errore imprevisto durante il salvataggio dei dati geografici aggiornati sul server"
             },
             "syncingLayersGeneralError": {
                 "title": "Errore generale",
-                "message": "Si è verificato un errore imprevisto durante la sincronizzazione dei livelli. Probabilmente c'è un bug in MapStore"
+                "message": "Si è verificato un errore imprevisto durante la sincronizzazione dei dati geografici. Probabilmente c'è un bug in MapStore"
             },
             "layerType": "tipo: {type}"
         },
@@ -3039,7 +3039,7 @@
             "error": "Errore: oggetto non trovato",
             "intro": {
                 "title": "Benvenuto su MapStore",
-                "text": "framework per costruire applicazioni di web mapping usando librerie standard di mappatura, come OpenLayers e Leaflet."
+                "text": "framework per costruire applicazioni di web mapping usando librerie standard di mappa tematicatura, come OpenLayers e Leaflet."
             },
             "drawerMenu": {
                 "title": "Menu principale",
@@ -3063,11 +3063,11 @@
             },
             "zoomInButton": {
                 "title": "Zoom In",
-                "text": "Premi per allargare la mappa"
+                "text": "Premi per allargare la mappa tematica"
             },
             "zoomOutButton": {
                 "title": "Zoom Out",
-                "text": "Premi per ridurre la mappa"
+                "text": "Premi per ridurre la mappa tematica"
             },
             "fullscreen": {
                 "title": "Schermo Intero",
@@ -3075,14 +3075,14 @@
             },
             "identifyButton": {
                 "title": "Info",
-                "text": "Premi il pulsante per attivare lo strumento, poi fai click sulla mappa per ottenere informazioni dal layer"
+                "text": "Premi il pulsante per attivare lo strumento, poi fai click sulla mappa tematica per ottenere informazioni dal layer"
             },
             "mapType": {
                 "title": "Libreria",
-                "text": "Puoi scegliere tra Leaflet o OpenLayers per visualizzare le mappe"
+                "text": "Puoi scegliere tra Leaflet o OpenLayers per visualizzare le mappe tematiche"
             },
             "mapsGrid": {
-                "title": "Mappe",
+                "title": "Mappe tematiche",
                 "text": "Qui alcuni esempi di MapStore. Fai click su un'immagine per provare la demo"
             },
             "examples": {
@@ -3090,11 +3090,11 @@
                 "text": "Puoi utilizzare componenti e plugins di MapStore per costruire applicazioni personalizzate"
             },
             "introCesium": {
-                "title": "Istruzioni della mappa 3D",
+                "title": "Istruzioni della mappa tematica 3D",
                 "text": "Premi il pulsante avanti per aprire il tutorial"
             },
             "cesium": {
-                "title": "Interazioni con la mappa",
+                "title": "Interazioni con la mappa tematica",
                 "pan": "Vista Pan",
                 "zoom": "Vista Zoom",
                 "tilt": "Vista Tilt",
@@ -3109,7 +3109,7 @@
             },
             "cesiumCompass": {
                 "title": "Bussola",
-                "text": "Puoi usare la bussola per orbitare intorno al globo. Trascina per ruotare la mappa"
+                "text": "Puoi usare la bussola per orbitare intorno al globo. Trascina per ruotare la mappa tematica"
             },
             "cesiumNavigation": {
                 "title": "Navigazione",
@@ -3125,7 +3125,7 @@
             },
             "dashboardContainer": {
                 "title": "Cruscotto",
-                "text": "<p> Una Dashboard in MapStore fornisce un insieme di informazioni raccolte in modo appropriato per mostrare i dati aggregati in un'unica visualizzazione. I dati geospaziali visualizzati in una mappa possono essere affiancati alle relative tabelle degli attributi, grafici ed altro, allo scopo di connettere diversi tipi di informazioni, mostrare dettagli statistici e descrizioni testuali relative ad un contesto specifico. </p> <p> Tutti gli utenti possono visualizzare e interagire con le dashboard pubblicate, ma solo gli utenti autorizzati a modificare possono aggiungere, organizzare, ridimensionare o eliminare tutti i widget all'interno di una dashboard </p>"
+                "text": "<p> Una Dashboard in MapStore fornisce un insieme di informazioni raccolte in modo appropriato per mostrare i dati aggregati in un'unica visualizzazione. I dati geospaziali visualizzati in una mappa tematica possono essere affiancati alle relative tabelle degli attributi, grafici ed altro, allo scopo di connettere diversi tipi di informazioni, mostrare dettagli statistici e descrizioni testuali relative ad un contesto specifico. </p> <p> Tutti gli utenti possono visualizzare e interagire con le dashboard pubblicate, ma solo gli utenti autorizzati a modificare possono aggiungere, organizzare, ridimensionare o eliminare tutti i widget all'interno di una dashboard </p>"
             },
             "dashboardAddWidget": {
                 "title": "Aggiungi widget",
@@ -3137,7 +3137,7 @@
             },
             "dashboardAddChart": {
                 "title": "Widget Grafico",
-                "text": "<p> È un widget che mostra e aggrega i dati in grafici a torta, linea o a istogramma. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un livello vettoriale </li> <li> Seleziona il tipo di grafico </li> <li> Configura i dati del grafico </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "text": "<p> È un widget che mostra e aggrega i dati in grafici a torta, linea o a istogramma. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un dato geografico vettoriale </li> <li> Seleziona il tipo di grafico </li> <li> Configura i dati del grafico </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "dashboardAddText": {
                 "title": "Widget Testo",
@@ -3145,15 +3145,15 @@
             },
             "dashboardAddTable": {
                 "title": "Widget Tabella ",
-                "text": "<p> Aggiungi una tabella di attributi alla dashboard che contiene dati di un livello vettoriale selezionato. Puoi anche filtrare i dati per personalizzare la tabella. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un livello vettoriale </li> <li> Configura dati tabella </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "text": "<p> Aggiungi una tabella di attributi alla dashboard che contiene dati di un dato geografico vettoriale selezionato. Puoi anche filtrare i dati per personalizzare la tabella. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un dato geografico vettoriale </li> <li> Configura dati tabella </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "dashboardAddCounter": {
                 "title": "Widget Contatore",
-                "text": "<p> Aggiungi un nuovo contatore alla dashboard. Il contatore mostrerà il valore numerico aggregando i dati da un livello vettoriale selezionato. </p> <p> Passi: </p> <p> <ul> <li> Seleziona un livello vettoriale </li> <li> Configura i dati del contatore </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "text": "<p> Aggiungi un nuovo contatore alla dashboard. Il contatore mostrerà il valore numerico aggregando i dati da un dato geografico vettoriale selezionato. </p> <p> Passi: </p> <p> <ul> <li> Seleziona un dato geografico vettoriale </li> <li> Configura i dati del contatore </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "dashboardAddMap": {
-                "title": "Widget Mappa",
-                "text": "<p> Aggiungi una nuova mappa interattiva alla dashboard. È possibile aggiungere più di una mappa con la possibilità di collegare ad esse altri widget. Dopo aver salvato la prima mappa, il widget legenda verrà aggiunto all'elenco. Legend Widget mostrerà una legenda relativa alla mappa connessa. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona una mappa </li> <li> Migliora la mappa aggiungendo nuovi livelli </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "title": "Widget Mappa tematica",
+                "text": "<p> Aggiungi una nuova mappa tematica interattiva alla dashboard. È possibile aggiungere più di una mappa tematica con la possibilità di collegare ad esse altri widget. Dopo aver salvato la prima mappa tematica, il widget legenda verrà aggiunto all'elenco. Legend Widget mostrerà una legenda relativa alla mappa tematica connessa. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona una mappa tematica </li> <li> Migliora la mappa tematica aggiungendo nuovi dati geografici </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "contextCreator": {
                 "generalSettings": {
@@ -3163,7 +3163,7 @@
                     },
                     "stepsOverview": {
                         "title": "Passaggi del creatore di contesto",
-                        "text": "<p>Ogni contesto viene creato in tre passaggi:</p><p><ul><li>Impostazioni generali</li><li>Configura mappa</li><li>Configura plugin</li></ul></p>"
+                        "text": "<p>Ogni contesto viene creato in tre passaggi:</p><p><ul><li>Impostazioni generali</li><li>Configura mappa tematica</li><li>Configura plugin</li></ul></p>"
                     },
                     "navigation": {
                         "next": {
@@ -3190,12 +3190,12 @@
                 },
                 "configureMap": {
                     "intro": {
-                        "title": "Configura mappa",
-                        "text": "<p>In questo passaggio, utilizzando gli strumenti di visualizzazione mappe MapStore è possibile configurare la mappa predefinita che verrà aperta all'accesso al contesto.</p>"
+                        "title": "Configura mappa tematica",
+                        "text": "<p>In questo passaggio, utilizzando gli strumenti di visualizzazione mappe tematiche MapStore è possibile configurare la mappa tematica predefinita che verrà aperta all'accesso al contesto.</p>"
                     },
                     "reloadMap": {
-                        "title": "Pulsante Ricarica mappa",
-                        "text": "<p>Se desideri annullare tutte le modifiche apportate alla mappa finora e ricominciare da capo, puoi farlo premendo questo pulsante.</p>"
+                        "title": "Pulsante Ricarica mappa tematica",
+                        "text": "<p>Se desideri annullare tutte le modifiche apportate alla mappa tematica finora e ricominciare da capo, puoi farlo premendo questo pulsante.</p>"
                     }
                 },
                 "configurePlugins": {
@@ -3236,8 +3236,8 @@
                         "text": "<p>Premendo questo pulsante si accederà alla pagina della documentazione del plug-in in cui è possibile cercare informazioni su cosa fa il plug-in e quali parametri di configurazione supporta.</p>"
                     },
                     "mapTemplatesTool": {
-                        "title": "Strumenti plug-in: modelli di mappe",
-                        "text": "<p>Il plug-in Modelli mappa ha anche uno strumento speciale che consente di configurare modelli mappa che saranno accessibili nel contesto.</p>"
+                        "title": "Strumenti plug-in: modelli di mappe tematiche",
+                        "text": "<p>Il plug-in Modelli mappa tematica ha anche uno strumento speciale che consente di configurare modelli mappa tematica che saranno accessibili nel contesto.</p>"
                     },
                     "extensions": {
                         "title": "Estensioni",
@@ -3291,7 +3291,7 @@
             },
             "geostoryEditContainer": {
               "title": "Contenuto della storia",
-              "text": "<p>Qui puoi vedere la storia e puoi modificarla aggiungendo o togliendo sezioni, paragrafi</p><p>Ogni barra degli strumenti di permette di manipolare il contenuto della storia, per esempio:</p><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAAfCAIAAAAwfyvFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWqSURBVHhe7ZhJbFtFGIB9Q0gIsUiUVWxFXBAcuCCQANEDSBxBQqxCSOXQAwIJcaHc4EApRG3SNKjQQps4zUqd0jRRQkOSJk1CkpKN7Iuz76ljx4mdOOGTZvT0YsfPb7xEocynX5bnzf/s53nf/DPPDo9Go4LDr9Go4AhqNCo4NjQaFRwhjUYFx2YshpeW19Y3ZCMZ+AJBV5/b2TVE5HcPz/j8smM7ox4vaSTLtib1MNqlA2NVI1ProZA8FIFjy5KywYn70/O/rG4NbITkoYSZ8K48+eNvj2QWPn6yiDcX+kZlx3aKe937s4pJlm3bdMwu5f4zLKJ2dGZzUx4X0OSgkUCy7NhLeALBw9WtH12qCwsO0iWTks28f+0VZ/ktR84RB0vrg6Gd77iVMejy6vmK7M7B5EqDBC/nlMVUIW5jvq5r23csDx2JN4qrwoaY5gcXa0UvaSTLjr0Ev5rfLm6eOeIbEAvE/Lk+vWDWxfqLohqDLvel57+YXTbp9fOhSZSGS7E2ZtrnP1TecLqtn+su6Bn5qvp6WJ2wBglsemA/c5dhE/Cne9oohEZwkC6ZlAxaphf2Hc+759j5x04WGboQz58tXVoLyKTt7GyMN7D+1oVqcXLSpZny+Q84yy2MaZ9dxBUWrLvSch86UfBmRJ2wJtXGLK4G5lZWI28cI9M2s0hpHF9eSeptTSFc86eVTbd+l224QjDyFot11BqDYpR08RGpqDTWXBufpcLx1bgVTfZofHutgxhb9oVN0LAgQWTK02zzXkkNNTJM4qtjMw9mFIjhIl7Lq1C9bEHMyxZBmjwhMVaC6x/+fvXhE4WGNNa6gNU+JqXSMAuZqVQaI6g95o/lu6gu8Y07MNfFlUcLEmSqIpHGjHp8T51yMURuj49V42zHwO3fOzNaumW3CtS8sOvcMeK+eDNCF+LGWtCoNJktPbI7ClbGwHIg+I6rRlxlcqVhxBl38ckiWE0bJ+dkd8LspjFFPW4WUDYZook0vuC6eK/KrtUYQxfeMHu/qW+/4wcn0vBAMHzDK5N2IoYxkCJpbiZjKAzGxWe19oonYd6I3j1IpC4v5ZQhyhdXmgnr2xrbGAiTJq2p64msYh5N87qHZYY6N5Mxv7QPMEFFjUEUnt7Z05AmelWhRPG0aF6vzUFXgo9Lhi6M9qm/+w5Xt6ILhUB2x8KWMWCW5t7jeexM8cbiGSwmwVCocnjSXGkLe0bm/Wuye2traMnL3I27jO2mMQOLyzydvl9Sy82gyU199szFuI3hRjJ5wq7WiATnldCFEujqGxXPFmLdkN02sGsMCGlYsKvcUzTZqD79k+tMe7/oTS7o8szPJSyrB0vrVaU53dZPNE/Ni9UhWpAgMuVptkEFNrYoIv4G/KSikYOU2zvTcqm7HKeX9/HtfKFv0fPCuVLx4ZFBFwkyVZHEdQEFYwBpKLl3p+V+VtnEBpsy89yvl+ZMhcEO5DMdmYiyHQG/gV/C6N92NIfvUt0w2f+XxX6mmfrxWXNppCmOs2RgyaHyBmfXkOqY7ALGYkRxjVsXUDMGWEMZI0RhGj2QUUAZUC0zjCxVnVfZjqB3wXPAWX60sXN/VjGv77pq9pQx/1HYYD2aWZTe3J2ILqBsjABvroxMsVrz3SwfFgUjkpjGALscpgLG8BiputFDgrdd1aIAlA9NhNlm3j+RtqeMKekfNf5Jsw7SSJan2YNfapwety4QpzEC7uXlwXF2M5grD9kAVziFu8WC+vHl+tbpBdmxHWGMtVg7wlAam5UjDZ1hxtDkoJGgOu4ppW5sxmLPaw7SSJan2cAXXH89v1KcS/2OWxdIyBgB3vQseNY2NmQ7Fourgc//+EvcMAtj2JmSRrJsaxKD59CW6QVvIM6/Fg2SYIzmf4U2RqOGNkajhjZGo4Y2RqOGNkajhjZGo4Y2RqOGNkajwtbWv+UsZ02x4CaBAAAAAElFTkSuQmCC'/><ul><li>Cambio sorgente risorsa</li><li>rende la sezione adattabile in altezza al contenuto</li><li>modifica il riempimento dello sfondo</li><li>cambia taglia</li><li>allinea il contenitore (disponibile se la taglia non è piena)</li><li>cambia tema</li></ul><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAYAAAB3j6rJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAAIwSURBVFhHY/wPBAyDADBB6QEHow5BB1R3yIWX7xiOP30N5REPqJJY/wKN2HLnCYMwBztD+YGzYLF+F1OGV19/MHgqSzMwMzKCxfABqjjk4ccvDJ6r9jLc+/AZKgIBSgK8DNvDnBnk+XmgIrgBVaKGg4WZgYuVmYGfnZWh39mUYbanJYMQJzsDEzAgWJiIs4KgKlCwf/z5G8rDBM++fGOwWbKD4crrDwzOCpIMGYbqDLE6ygzO8hIMd95/ZnBYthOshhAg6JCXX78zmCzYwiA/bS1D3OYjDPsfvmD49vsPw4ZbjxjqDl1gYGdmZljgbc0gxs3BcPr5W4bzr94xXHvzgeHci3dgMZCcODcn1DTcgOioATlo1Y0HDPMu3Wa4ArQofcdxhp5TVxmmnrvBoC7ExyABtOzxp68MVou2MRjN38JwF5heQGIgOWISK0Vp5B8w2q69+cjAycrC4KMsw9BsZ8ggw8sFxiC2jYwYAwszldIIIbD59mOGiWeuM1Rb6zGUmmsDsQ5Dg40BmN0HTLgC7GxQlfgBxQ4BJeb5l+4w3H73CewgN0UpBmtgSIDYn37hTuTogGKHIANQAtacvQGMQWxSAFUdQgkYdQg6GDoOYQOWnLJ83DgLJS5gGWIkLgSsZ9iAtDDR2RUdEF37/vr7j+HG24/gElNfTJDhyONX4LpFioeLAd2NL4ClMKjuAWVjTmCFSAwYbTyjg1GHoINRh6CDUYegg1GHoINB4hAGBgDB977viofL1wAAAABJRU5ErkJggg=='/><p>Questa icona ti permette di modificare la mappa relativa</p><img src=''/><b>Suggerimento: </b>Ogni strumento ha una spiegazione, passa sopra con il mouse per scoprirne di più"
+              "text": "<p>Qui puoi vedere la storia e puoi modificarla aggiungendo o togliendo sezioni, paragrafi</p><p>Ogni barra degli strumenti di permette di manipolare il contenuto della storia, per esempio:</p><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAAfCAIAAAAwfyvFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWqSURBVHhe7ZhJbFtFGIB9Q0gIsUiUVWxFXBAcuCCQANEDSBxBQqxCSOXQAwIJcaHc4EApRG3SNKjQQps4zUqd0jRRQkOSJk1CkpKN7Iuz76ljx4mdOOGTZvT0YsfPb7xEocynX5bnzf/s53nf/DPPDo9Go4LDr9Go4AhqNCo4NjQaFRwhjUYFx2YshpeW19Y3ZCMZ+AJBV5/b2TVE5HcPz/j8smM7ox4vaSTLtib1MNqlA2NVI1ProZA8FIFjy5KywYn70/O/rG4NbITkoYSZ8K48+eNvj2QWPn6yiDcX+kZlx3aKe937s4pJlm3bdMwu5f4zLKJ2dGZzUx4X0OSgkUCy7NhLeALBw9WtH12qCwsO0iWTks28f+0VZ/ktR84RB0vrg6Gd77iVMejy6vmK7M7B5EqDBC/nlMVUIW5jvq5r23csDx2JN4qrwoaY5gcXa0UvaSTLjr0Ev5rfLm6eOeIbEAvE/Lk+vWDWxfqLohqDLvel57+YXTbp9fOhSZSGS7E2ZtrnP1TecLqtn+su6Bn5qvp6WJ2wBglsemA/c5dhE/Cne9oohEZwkC6ZlAxaphf2Hc+759j5x04WGboQz58tXVoLyKTt7GyMN7D+1oVqcXLSpZny+Q84yy2MaZ9dxBUWrLvSch86UfBmRJ2wJtXGLK4G5lZWI28cI9M2s0hpHF9eSeptTSFc86eVTbd+l224QjDyFot11BqDYpR08RGpqDTWXBufpcLx1bgVTfZofHutgxhb9oVN0LAgQWTK02zzXkkNNTJM4qtjMw9mFIjhIl7Lq1C9bEHMyxZBmjwhMVaC6x/+fvXhE4WGNNa6gNU+JqXSMAuZqVQaI6g95o/lu6gu8Y07MNfFlUcLEmSqIpHGjHp8T51yMURuj49V42zHwO3fOzNaumW3CtS8sOvcMeK+eDNCF+LGWtCoNJktPbI7ClbGwHIg+I6rRlxlcqVhxBl38ckiWE0bJ+dkd8LspjFFPW4WUDYZook0vuC6eK/KrtUYQxfeMHu/qW+/4wcn0vBAMHzDK5N2IoYxkCJpbiZjKAzGxWe19oonYd6I3j1IpC4v5ZQhyhdXmgnr2xrbGAiTJq2p64msYh5N87qHZYY6N5Mxv7QPMEFFjUEUnt7Z05AmelWhRPG0aF6vzUFXgo9Lhi6M9qm/+w5Xt6ILhUB2x8KWMWCW5t7jeexM8cbiGSwmwVCocnjSXGkLe0bm/Wuye2traMnL3I27jO2mMQOLyzydvl9Sy82gyU199szFuI3hRjJ5wq7WiATnldCFEujqGxXPFmLdkN02sGsMCGlYsKvcUzTZqD79k+tMe7/oTS7o8szPJSyrB0vrVaU53dZPNE/Ni9UhWpAgMuVptkEFNrYoIv4G/KSikYOU2zvTcqm7HKeX9/HtfKFv0fPCuVLx4ZFBFwkyVZHEdQEFYwBpKLl3p+V+VtnEBpsy89yvl+ZMhcEO5DMdmYiyHQG/gV/C6N92NIfvUt0w2f+XxX6mmfrxWXNppCmOs2RgyaHyBmfXkOqY7ALGYkRxjVsXUDMGWEMZI0RhGj2QUUAZUC0zjCxVnVfZjqB3wXPAWX60sXN/VjGv77pq9pQx/1HYYD2aWZTe3J2ILqBsjABvroxMsVrz3SwfFgUjkpjGALscpgLG8BiputFDgrdd1aIAlA9NhNlm3j+RtqeMKekfNf5Jsw7SSJan2YNfapwety4QpzEC7uXlwXF2M5grD9kAVziFu8WC+vHl+tbpBdmxHWGMtVg7wlAam5UjDZ1hxtDkoJGgOu4ppW5sxmLPaw7SSJan2cAXXH89v1KcS/2OWxdIyBgB3vQseNY2NmQ7Fourgc//+EvcMAtj2JmSRrJsaxKD59CW6QVvIM6/Fg2SYIzmf4U2RqOGNkajhjZGo4Y2RqOGNkajhjZGo4Y2RqOGNkajwtbWv+UsZ02x4CaBAAAAAElFTkSuQmCC'/><ul><li>Cambio sorgente risorsa</li><li>rende la sezione adattabile in altezza al contenuto</li><li>modifica il riempimento dello sfondo</li><li>cambia taglia</li><li>allinea il contenitore (disponibile se la taglia non è piena)</li><li>cambia tema</li></ul><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAYAAAB3j6rJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAAIwSURBVFhHY/wPBAyDADBB6QEHow5BB1R3yIWX7xiOP30N5REPqJJY/wKN2HLnCYMwBztD+YGzYLF+F1OGV19/MHgqSzMwMzKCxfABqjjk4ccvDJ6r9jLc+/AZKgIBSgK8DNvDnBnk+XmgIrgBVaKGg4WZgYuVmYGfnZWh39mUYbanJYMQJzsDEzAgWJiIs4KgKlCwf/z5G8rDBM++fGOwWbKD4crrDwzOCpIMGYbqDLE6ygzO8hIMd95/ZnBYthOshhAg6JCXX78zmCzYwiA/bS1D3OYjDPsfvmD49vsPw4ZbjxjqDl1gYGdmZljgbc0gxs3BcPr5W4bzr94xXHvzgeHci3dgMZCcODcn1DTcgOioATlo1Y0HDPMu3Wa4ArQofcdxhp5TVxmmnrvBoC7ExyABtOzxp68MVou2MRjN38JwF5heQGIgOWISK0Vp5B8w2q69+cjAycrC4KMsw9BsZ8ggw8sFxiC2jYwYAwszldIIIbD59mOGiWeuM1Rb6zGUmmsDsQ5Dg40BmN0HTLgC7GxQlfgBxQ4BJeb5l+4w3H73CewgN0UpBmtgSIDYn37hTuTogGKHIANQAtacvQGMQWxSAFUdQgkYdQg6GDoOYQOWnLJ83DgLJS5gGWIkLgSsZ9iAtDDR2RUdEF37/vr7j+HG24/gElNfTJDhyONX4LpFioeLAd2NL4ClMKjuAWVjTmCFSAwYbTyjg1GHoINRh6CDUYegg1GHoINB4hAGBgDB977viofL1wAAAABJRU5ErkJggg=='/><p>Questa icona ti permette di modificare la mappa tematica relativa</p><img src=''/><b>Suggerimento: </b>Ogni strumento ha una spiegazione, passa sopra con il mouse per scoprirne di più"
             },
             "geostoryEditAddbar": {
               "title": "Aggiungi nuova sezione",
@@ -3299,7 +3299,7 @@
             },
             "geostoryEditMediaEditor": {
               "title": "Editor delle risorse",
-              "text": "Qui puoi selezionare immagini o mappe da aggiungere alla storia<p> Per maggiori informazioni consulta la relativa guida <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/'>qui</a>"
+              "text": "Qui puoi selezionare immagini o mappe tematiche da aggiungere alla storia<p> Per maggiori informazioni consulta la relativa guida <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/'>qui</a>"
             }
         },
         "userSession": {
