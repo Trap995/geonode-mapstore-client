@@ -19,7 +19,7 @@
         "about_h21": "Crediti",
         "about_p6": "MapStore è sviluppato da:",
         "enable": "Abilita",
-        "layers": "Livelli",
+        "layers": "Dati geografici",
         "warning": "Attenzione",
         "errorTitleDefault": "Errore",
         "errorDefault": "Si è verificato un errore",
@@ -31,7 +31,7 @@
         "Forbidden": "Vietato",
         "layerNameChangeError": {
             "title": "Errore di modifica del nome",
-            "message": "Il livello non è stato ricaricato con un nome modificato"
+            "message": "Il dato geografico non è stato ricaricato con un nome modificato"
         },
         "version": {
             "label": "Versione"
@@ -57,7 +57,7 @@
         "remove": "Rimuovi",
         "removeThumbnail": "Rimuovi anteprima",
         "layerProperties": {
-            "windowTitle": "Proprietà del livello",
+            "windowTitle": "Proprietà del dato geografico",
             "title": "Titolo",
             "name": "Nome",
             "group": "Gruppo",
@@ -73,7 +73,7 @@
             "stylesRefreshList": "Aggiorna lista degli stili",
             "delete": "Elimina",
             "deleteLayer":"Elimina Livello",
-            "deleteLayerMessage": "Sei sicuro di voler eliminare questo livello?",
+            "deleteLayerMessage": "Sei sicuro di voler eliminare questo dato geografico?",
             "deleteLayerGroup":"Elimina gruppo",
             "deleteLayerGroupMessage": "Vuoi veramente cancellare questo gruppo e tutti i suoi livelli?",
             "confirmDelete": "Sei sicuro?",
@@ -98,7 +98,7 @@
             "templateFormatTitle": "TEMPLATE",
             "templateFormatDescription": "Personalizza il formato di risposta",
             "hideFormatTitle": "DISABILITA IDENTIFICA",
-            "hideFormatDescription": "Disabilita le informazioni sulla funzionalità per questo livello",
+            "hideFormatDescription": "Disabilita le informazioni sulla funzionalità per questo dato geografico",
             "templateFormatInfoAlert1": "Click sul bottone di modifica per aggiungere un nuovo template.",
             "templateFormatInfoAlert2": "Usa ${ attribute } per aggiungere gli attributi da visualizzare",
             "templateFormatInfoAlertExample": "id della feature è ${ properties }",
@@ -515,7 +515,7 @@
             "toggleGroupVisibility": "Attiva o disattiva la visibilità del gruppo",
             "displayLegendAndTools": "Visualizza legenda e strumenti aggiuntivi",
             "zoomToLayerExtent": "Zoom all' estensione del livello",
-            "addLayer": "Aggiungi Livello",
+            "addLayer": "Aggiungi dato geografico",
             "addLayerToGroup": "Aggiungi livello al gruppo selezionato",
             "addGroup": "Aggiungi Gruppo",
             "addSubGroup": "Aggiungi sotto gruppo al gruppo selezionato",
@@ -545,9 +545,9 @@
             "removeLayer": "Rimuovi livello",
             "loadingerror": "Il livello non è stato caricato correttamente o non disponible.",
             "measure": "Misure",
-            "layers": "Livelli",
-            "drawerButton": "Livelli",
-            "refreshTitle": "Aggiorna livelli",
+            "layers": "Dati geografici",
+            "drawerButton": "Dati geografici",
+            "refreshTitle": "Aggiorna dati gografici",
             "refreshConfirm": "Aggiorna",
             "refreshMessage": "Ricarica la configurazione dei layer WMS dai rispettivi server",
             "refreshError": "Errore di aggiornamento sui layer: ",
